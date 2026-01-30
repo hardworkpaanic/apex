@@ -42,7 +42,7 @@ export function HomeHero() {
 			</section>
 
 			{/* Desktop */}
-			<section className="hidden md:flex container mx-auto px-4 text-white w-full h-[580px] bg-cover bg-center flex-col">
+			<section className="hidden md:flex container max-w-[1330px] mx-auto px-4 text-white w-full h-[580px] bg-cover bg-center flex-col">
 				<motion.div
 					className="container bg-[url('/hero-bg-desctop.jpg')] max-w-[1320px] px-[60px] py-6.25 flex-1 flex flex-col bg-cover bg-center rounded-3xl justify-center"
 					initial={{ opacity: 0.95 }}

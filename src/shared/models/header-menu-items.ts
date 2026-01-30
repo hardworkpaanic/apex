@@ -14,7 +14,7 @@ export const headerMenuItems: HeaderMenuItem[] = [
 	},
 	{
 		title: 'Как мы работаем',
-		href: '/how-we-work'
+		href: '/how-we-works'
 	},
 	{
 		title: 'Проекты',
