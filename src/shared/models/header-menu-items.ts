@@ -10,7 +10,7 @@ export const headerMenuItems: HeaderMenuItem[] = [
 	},
 	{
 		title: 'Монтаж',
-		href: '/montage'
+		href: '/installation'
 	},
 	{
 		title: 'Как мы работаем',
