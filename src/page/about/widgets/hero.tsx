@@ -36,8 +36,8 @@ export function Hero() {
 
 			{/* Desctop */}
 
-			<section className="hidden md:flex container max-w-[1320px] mx-auto px-4 text-white w-full h-[480px] bg-cover bg-center flex-col">
-				<div className="container bg-[url('/about-us/hero-bg-desktop.jpg')] px-[60px] py-6.25 flex-1 flex flex-col bg-cover bg-center rounded-3xl justify-center">
+			<section className="hidden md:flex container max-w-[1320px] mx-auto px-4 text-white w-full md:h-[480px] bg-cover bg-center flex-col">
+				<div className="container bg-[url('/about-us/hero-bg-desktop.jpg')] px-[60px] py-2.25 flex-1 flex flex-col bg-cover bg-center md:h-[480px] rounded-3xl justify-center">
 					<div className="space-y-4 flex flex-col justify-between h-full py-[93px]">
 						<div className="">
 							<div>
