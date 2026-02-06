@@ -40,8 +40,8 @@ export function InstallationHero() {
 
 			{/* Desktop */}
 
-			<section className="hidden md:flex container max-w-[1320px] mx-auto px-4 text-white w-full h-[580px] bg-cover bg-center flex-col">
-				<div className="container bg-[url('/HowWeWorks/hero-bg-desctop.jpg')] px-[60px] py-6.25 flex-1 flex flex-col bg-cover bg-center rounded-3xl justify-center">
+			<section className="hidden md:flex container max-w-[1320px] mx-auto px-4 text-white w-full h-[480px] flex-col">
+				<div className="container bg-[url('/installation/hero-bg-desctop.jpg')] px-[60px] py-6.25 flex-1 flex flex-col bg-cover h-[480px] w-full bg-center rounded-3xl justify-center">
 					<div className="space-y-4 flex flex-col justify-between h-full py-[93px]">
 						<div className="">
 							<div>
@@ -55,11 +55,13 @@ export function InstallationHero() {
 							</div>
 
 							<h1 className="font-semibold max-w-[817px] text-[54px] leading-[110%]">
-								Одна команда
+								Монтаж с точностью до миллиметра
 							</h1>
 
-							<p className="italic mt-2 text-white/70 text-[16px] leading-[150%]">
-								Фиксированные сроки. Контроль каждого этапа.
+							<p className="italic mt-2 max-w-[596px] text-white/70 text-[16px] leading-[150%]">
+								Высококвалифицированные бригады. Всесезонная технология.
+								Трёхуровневый контроль качества. Гарантия 10 лет на монтажные
+								работы.
 							</p>
 						</div>
 
@@ -67,28 +69,39 @@ export function InstallationHero() {
 							<Button
 								size={'lg'}
 								variant={'secondary'}
+								className="font-bold"
 							>
-								Рассчитать проект <ArrowUpRight />
+								Заказать выезд на объект <ArrowUpRight />
 							</Button>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<div className="flex container mt-5 max-w-[1320px] mx-auto px-4 flex-col">
-				<div className="flex justify-between py-2 items-center">
-					<span className="text-[30px] font-semibold">0,5 мм</span>
-					<span className="text-[12px] italic">точность стыковки</span>
+			<div className="flex flex-col md:w-full md:justify-between md:items-center md:px-40 md:flex-row container mt-5 max-w-[1320px] mx-auto px-4 flex-col">
+				<div className="flex md:flex-col justify-between py-2 items-center">
+					<span className="text-[30px] md:text-[46px] font-semibold">
+						0,5 мм
+					</span>
+					<span className="text-[12px] md:text-base italic">
+						точность стыковки
+					</span>
 				</div>
 
-				<div className="flex justify-between border-b border-t border-#EDEDED py-2 items-center">
-					<span className="text-[30px] font-semibold">200+</span>
-					<span className="text-[12px] italic">объектов смонтировано</span>
+				<div className="flex md:flex-col justify-between border-b md:border-none border-t border-#EDEDED py-2 items-center">
+					<span className="text-[30px] md:text-[46px] font-semibold">200+</span>
+					<span className="text-[12px] md:text-base italic">
+						объектов смонтировано
+					</span>
 				</div>
 
-				<div className="flex justify-between py-2 items-center">
-					<span className="text-[30px] font-semibold">10 лет</span>
-					<span className="text-[12px] italic">Гарантия работы</span>
+				<div className="flex md:flex-col justify-between py-2 items-center">
+					<span className="text-[30px] md:text-[46px] font-semibold">
+						10 лет
+					</span>
+					<span className="text-[12px] md:text-base italic">
+						Гарантия работы
+					</span>
 				</div>
 			</div>
 		</>

@@ -3,8 +3,8 @@ import Image from 'next/image'
 export function Video() {
 	return (
 		<>
-			<div className="container mx-auto mt-15  max-w-[1330px] px-4">
-				<div className="md:max-w-[500px]">
+			<div className="container mx-auto mt-15 md:mt-30 max-w-[1330px] px-4">
+				<div className="">
 					<div className="flex items-center gap-2">
 						<Image
 							src="/mini-logo-gray.svg"

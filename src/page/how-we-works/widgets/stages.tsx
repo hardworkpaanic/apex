@@ -1,9 +1,10 @@
+import { Separator } from '@/shared/components/ui/separator'
 import Image from 'next/image'
 
 export function Stages() {
 	return (
-		<section className="container mt-15 max-w-[1330px] mx-auto px-4">
-			<div className="md:max-w-[500px]">
+		<section className="container mt-15 md:mt-30 max-w-[1330px] mx-auto px-4">
+			<div className="md:max-w-[650px]">
 				<div className="flex items-center gap-2">
 					<Image
 						src="/mini-logo-gray.svg"
@@ -14,17 +15,77 @@ export function Stages() {
 						unoptimized
 					/>
 				</div>
-				<h2 className="font-semibold mt-2 text-[30px] md:text-[48px] leading-[110%]">
+				<h2 className="font-bold mt-2 text-[30px] md:text-[54px] leading-[110%]">
 					5 этапов с прозрачными сроками
 				</h2>
 
-				<p className="mt-5 text-[14px] italic text-[#3C3C3C]">
+				<p className="mt-5 text-[14px] md:hidden italic text-[#3C3C3C]">
 					"Мы называем сроки в рабочих днях (пн–пт). Календарные сроки зависят
 					от выходных и праздников. Итоговый график фиксируем в договоре.
 				</p>
 			</div>
 
-			<div className="mt-5">
+			<div className="mt-5 md:mt-15 flex flex-col flex-wrap md:flex-row gap-2">
+				<div className="bg-[#F3F3F3] border border-[#EDEDED] rounded-2xl p-7 flex flex-col justify-between w-full max-w-[315px] h-[253px]">
+					<div className="w-[32px] h-[32px] text-white font-bold text-base rounded-md bg-black flex items-center justify-center">
+						1
+					</div>
+
+					<div className="">
+						<p className="text-base font-semibold">
+							Консультация и 3D-визуализация
+						</p>
+						<p className="text-base">5-10 рабочих дней</p>
+					</div>
+				</div>
+
+				<div className="bg-[#F3F3F3] border border-[#EDEDED] rounded-2xl p-7 flex flex-col justify-between w-full max-w-[315px] h-[253px]">
+					<div className="w-[32px] h-[32px] text-white font-bold text-base rounded-md bg-black flex items-center justify-center">
+						1
+					</div>
+
+					<div className="">
+						<p className="text-base font-semibold">
+							Консультация и 3D-визуализация
+						</p>
+						<p className="text-base">5-10 рабочих дней</p>
+					</div>
+				</div>
+
+				<div className="bg-[#F3F3F3] border border-[#EDEDED] rounded-2xl p-7 flex flex-col justify-between w-full max-w-[315px] h-[253px]">
+					<div className="w-[32px] h-[32px] text-white font-bold text-base rounded-md bg-black flex items-center justify-center">
+						1
+					</div>
+
+					<div className="">
+						<p className="text-base font-semibold">
+							Консультация и 3D-визуализация
+						</p>
+						<p className="text-base">5-10 рабочих дней</p>
+					</div>
+				</div>
+
+				<div className="w-[280px]"></div>
+				<div className="w-[638px] h-[253px] flex items-end">
+					<p className="text-[14px] italic">
+						"Мы называем сроки в рабочих днях (пн–пт). Календарные сроки зависят
+						от выходных и праздников. Итоговый график фиксируем в договоре.
+					</p>
+				</div>
+
+				<div className="bg-[#F3F3F3] border border-[#EDEDED] rounded-2xl p-7 flex flex-col justify-between w-full max-w-[315px] h-[253px]">
+					<div className="w-[32px] h-[32px] text-white font-bold text-base rounded-md bg-black flex items-center justify-center">
+						1
+					</div>
+
+					<div className="">
+						<p className="text-base font-semibold">
+							Консультация и 3D-визуализация
+						</p>
+						<p className="text-base">5-10 рабочих дней</p>
+					</div>
+				</div>
+
 				<div className="bg-[#F3F3F3] border border-[#EDEDED] rounded-2xl p-7 flex flex-col justify-between w-full max-w-[315px] h-[253px]">
 					<div className="w-[32px] h-[32px] text-white font-bold text-base rounded-md bg-black flex items-center justify-center">
 						1
@@ -39,11 +100,11 @@ export function Stages() {
 				</div>
 			</div>
 
-			<div className="bg-black mt-15 pb-35 text-white rounded-2xl px-6 py-5">
-				<h3 className="text-[22px] font-semibold leading-[130%]">
+			<div className="bg-black md:relative md:h-[283px] mt-15 md:mt-30 pb-35 md:pb-[59px] text-white rounded-2xl md:px-[50px] py-[59px] px-6 py-5">
+				<h3 className="text-[22px] md:text-[28px] font-semibold leading-[130%]">
 					Вы контролируете каждый этап
 				</h3>
-				<ul className="flex mt-2 flex-col gap-2">
+				<ul className="flex mt-2 flex-col">
 					<div className="items-center mt-4 flex gap-2">
 						<Image
 							src={'/about-us/list-icon.png'}
@@ -80,6 +141,14 @@ export function Stages() {
 						</p>
 					</div>
 				</ul>
+
+				<Image
+					src="/HowWeWorks/phone-desctop.png"
+					alt="phone"
+					width={312}
+					height={396}
+					className="absolute right-50 bottom-[-80px]"
+				/>
 			</div>
 
 			<div className="relative flex justify-center items-center w-full">
@@ -88,9 +157,11 @@ export function Stages() {
 					alt="phone"
 					width={157.56097412109375}
 					height={200}
-					className="absolute bottom-[-80px]"
+					className="absolute md:hidden bottom-[-80px]"
 				/>
 			</div>
+
+			<Separator className="bg-[#EFEFEF] mt-40" />
 		</section>
 	)
 }

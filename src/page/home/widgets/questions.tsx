@@ -22,7 +22,7 @@ export function Questions() {
 						/>
 					</div>
 					<h2 className="font-semibold mt-2 md:text-[48px] text-[30px] leading-[110%]">
-						Ответы на частые вопросы{' '}
+						Ответы на <br /> частые вопросы{' '}
 					</h2>
 				</div>
 				<Accordion

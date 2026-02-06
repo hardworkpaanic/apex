@@ -9,7 +9,7 @@ export function HomeHero() {
 	return (
 		<>
 			<section className="bg-[url('/hero-bg.jpg')] md:hidden text-white w-full h-168.25 bg-cover bg-center rounded-3xl flex flex-col">
-				<div className="container mx-auto max-w-[1320px] px-4 py-6.25 flex-1 flex flex-col justify-end">
+				<div className="container mx-auto max-w-[1330px] px-4 py-6.25 flex-1 flex flex-col justify-end">
 					<div className="space-y-4">
 						<Image
 							src="/mini-logo.svg"

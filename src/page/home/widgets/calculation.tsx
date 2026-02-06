@@ -44,7 +44,7 @@ export function Calculation() {
 				className="w-full hidden md:block bg-contain bg-center mt-7.5 md:mt-15"
 			/>
 
-			<form className="bg-[#EDEDED] md:gap-30 sm:gap-20 flex flex-col md:flex-row w-full mt-5 rounded-3xl px-[20px] py-[30px]">
+			<form className="bg-[#EDEDED] flex flex-col md:flex-row w-full mt-5 rounded-3xl px-[20px] py-[30px]">
 				<div className="">
 					<h3 className="text-[22px] md:text-[46px] font-semibold leading-[110%]">
 						Получите расчёт вашего проекта за 24 часа
@@ -55,7 +55,7 @@ export function Calculation() {
 					</p>
 				</div>
 
-				<div className="flex flex-col mt-2 w-[850px] gap-2">
+				<div className="flex flex-col mt-2 w-full max-w-[630px] gap-2">
 					<Input
 						className="border-b outline-none border-black rounded-0"
 						placeholder="Ваше Имя"

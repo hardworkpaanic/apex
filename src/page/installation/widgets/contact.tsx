@@ -1,0 +1,72 @@
+import { Button, ProjectCard } from '@/shared/components'
+import { Input } from '@/shared/components/ui/input'
+import { ArrowUpRight } from 'lucide-react'
+
+export function Contact() {
+	return (
+		<section className="bg-black mt-15 text-white rounded-t-3xl py-15 md:py-30">
+			<div className="container max-w-[1320px] mx-auto px-4">
+				<h2 className="text-[30px] md:text-[48px] font-semibold leading-[110%]">
+					Примеры наших работ
+				</h2>
+
+				<p className="text-[14px] md:text-[16px] leading-[150%] mt-4">
+					От классики до современной архитектуры
+				</p>
+
+				{/* TODO: Сделать карусель */}
+
+				<ProjectCard
+					className="mt-7.5"
+					buttonVariant="secondary"
+				/>
+
+				<div className="w-full md:flex justify-center">
+					<Button
+						variant={'secondary'}
+						size={'lg'}
+						className="w-full md:w-auto mx-auto mt-10"
+					>
+						Смотреть 200+ проектов <ArrowUpRight />
+					</Button>
+				</div>
+				<form className="flex sm:gap-2 flex-col md:flex-row w-full mt-10 rounded-3xl">
+					<div className="">
+						<h3 className="text-[22px] md:text-[46px] font-semibold leading-[110%]">
+							Получите расчёт вашего проекта за 24 часа
+						</h3>
+
+						<p className="text-[14px] md:text-base leading-[150%] mt-2">
+							Мы перезвоним в течение 2 часов (пн-пт 9:00-20:00)
+						</p>
+					</div>
+
+					<div className="flex flex-col mt-2 max-w-[650px] gap-2">
+						<Input
+							className="border-b outline-none border-white rounded-0"
+							placeholder="Ваше Имя"
+						/>
+						<Input
+							className="border-b border-white rounded-0"
+							placeholder="Телефон"
+						/>
+
+						<Button
+							className="mt-2"
+							variant={'secondary'}
+							size={'lg'}
+						>
+							Оставить заявку
+						</Button>
+
+						<p className="text-[12px] text-[#3C3C3C] leading-[130%] italic mt-2">
+							Нажимая кнопку «Отправить», я даю согласие на обработку моих
+							персональных данных на условиях и для целей, определенных
+							в политике о конфиденциальности
+						</p>
+					</div>
+				</form>
+			</div>
+		</section>
+	)
+}

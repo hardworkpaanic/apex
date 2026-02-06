@@ -50,9 +50,9 @@ export function Works() {
 				{/* Полная стоимость владения
 — считаем на дистанции */}
 
-				<div className="bg-[#171717] rounded-2xl px-4 md:px-8 md:py-16 py-10 text-center mt-10">
+				<div className="bg-[#171717] rounded-2xl px-4 md:px-8 md:py-16 py-10 text-center mt-10 md:mt-30">
 					<h2 className="text-[30px] md:text-[48px] font-semibold leading-[110%]">
-						Полная стоимость владения — считаем на дистанции
+						Полная стоимость владения <br /> — считаем на дистанции
 					</h2>
 
 					<p className="text-[14px] md:text-[16px] leading-[150%] mt-4">
@@ -132,7 +132,7 @@ export function Works() {
 					</ul>
 				</div>
 
-				<h2 className="text-[30px] md:text-[48px] font-semibold leading-[110%] mt-10">
+				<h2 className="text-[30px] md:text-[48px] md:mt-30 font-semibold leading-[110%] mt-10">
 					Удобные способы оплаты
 				</h2>
 
@@ -320,7 +320,7 @@ export function Works() {
 					</div>
 				</div>
 
-				<form className="flex sm:gap-2 flex-col md:flex-row w-full mt-10 rounded-3xl">
+				<form className="flex sm:gap-2 flex-col md:flex-row w-full mt-10 md:mt-30 rounded-3xl">
 					<div className="">
 						<h3 className="text-[22px] md:text-[46px] font-semibold leading-[110%]">
 							Получите расчёт вашего проекта за 24 часа

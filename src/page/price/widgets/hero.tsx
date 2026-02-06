@@ -36,7 +36,7 @@ export function PriceHero() {
 				</div>
 			</section>
 
-			<section className="hidden md:flex container max-w-[1320px] mx-auto px-4 text-white w-full h-[580px] bg-cover bg-center flex-col">
+			<section className="hidden md:flex container max-w-[1320px] mx-auto px-4 text-white w-full h-[480px] bg-cover bg-center flex-col">
 				<div className="container bg-[url('/price/hero-bg-desctop.jpg')] px-[60px] py-6.25 flex-1 flex flex-col bg-cover bg-center rounded-3xl justify-center">
 					<div className="space-y-4">
 						<div>
@@ -61,6 +61,7 @@ export function PriceHero() {
 							<Button
 								size={'lg'}
 								variant={'secondary'}
+								className="font-bold"
 							>
 								Рассчитать проект <ArrowUpRight />
 							</Button>

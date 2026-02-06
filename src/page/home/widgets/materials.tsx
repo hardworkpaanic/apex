@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export function Materials() {
 	return (
-		<section className="container max-w-[1320px] mt-12.5 mx-auto px-4 flex  flex-col">
+		<section className="container max-w-[1320px] md:pt-[120px] pb-[108px] mt-12.5 mx-auto px-4 flex  flex-col">
 			<div className="flex gap-5 md:gap-20 flex-col md:flex-row">
 				<Image
 					src="/material.jpg"
@@ -123,7 +123,7 @@ export function Materials() {
 				</div>
 			</div>
 
-			<div className="w-full mt-20 hidden md:flex justify-between">
+			<div className="w-full mt-[110px] hidden md:flex justify-between">
 				<div className="flex justify-center flex-col items-center gap-3">
 					<Image
 						src="/homepage/rock.svg"

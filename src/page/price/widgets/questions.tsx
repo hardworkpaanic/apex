@@ -21,8 +21,8 @@ export function Questions() {
 							unoptimized
 						/>
 					</div>
-					<h2 className="font-semibold mt-2 md:text-[48px] text-[30px] leading-[110%]">
-						Ответы на частые вопросы{' '}
+					<h2 className="font-semibold mt-2 md:text-[48px] max-w-[427px] text-[30px] leading-[110%]">
+						Часто задаваемые вопросы о ценах{' '}
 					</h2>
 				</div>
 				<Accordion

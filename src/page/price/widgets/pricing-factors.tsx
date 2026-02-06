@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export function PricingFactors() {
 	return (
-		<section className="mt-15">
+		<section className="mt-15 md:mt-30">
 			<div className="container max-w-[1320px] mx-auto px-4">
 				<div className="flex items-center gap-2">
 					<Image
@@ -35,7 +35,7 @@ export function PricingFactors() {
 						</p>
 					</div>
 
-					<div className="bg-[#F3F3F3] w-full h-full flex flex-col justify-between md:max-w-98.75 md:h-63.25 mt-5 rounded-3xl p-7.5">
+					<div className="bg-[#F3F3F3] w-full h-full flex flex-col justify-between md:max-w-[315px] md:h-63.25 mt-5 rounded-3xl p-7.5">
 						<div className="">
 							<span className="text-base font-semibold leading-[150%]">
 								СЛОЖНОСТЬ КОЛИЧЕСТВО ИНДИВИДУАЛЬ-ЭЛЕМЕНТОВ
@@ -49,7 +49,7 @@ export function PricingFactors() {
 
 						<p className="font-bold text-base mt-3">+0–30%</p>
 					</div>
-					<div className="bg-[#F3F3F3] w-full h-full flex flex-col justify-between md:max-w-98.75 md:h-63.25 mt-5 rounded-3xl p-7.5">
+					<div className="bg-[#F3F3F3] w-full h-full flex flex-col justify-between md:max-w-[315px] md:h-63.25 mt-5 rounded-3xl p-7.5">
 						<div className="">
 							<span className="text-base font-semibold leading-[150%]">
 								КОЛИЧЕСТВО И РАЗМЕР
@@ -71,6 +71,62 @@ export function PricingFactors() {
 							учитываются на этапе проектирования и закрепляются в договоре.
 							Никаких доплат и скрытых расходов в процессе реализации.
 						</p>
+					</div>
+					<div className="bg-[#F3F3F3] w-full h-full flex flex-col justify-between md:max-w-[315px] md:h-63.25 mt-2 rounded-3xl p-7.5">
+						<div className="">
+							<span className="text-base font-semibold leading-[150%]">
+								КОЛИЧЕСТВО И РАЗМЕР
+							</span>
+
+							<p className="text-base text-[#3C3C3C] mt-2">
+								Чем больше площадь фасада и элементов, тем выше стоимость. Но
+								цена за м² снижается.
+							</p>
+						</div>
+
+						<p className="font-bold text-base mt-3">{'−5–15% при > 200 м²'}</p>
+					</div>
+					<div className="bg-[#F3F3F3] w-full h-full flex flex-col justify-between md:max-w-[315px] md:h-63.25 mt-2 rounded-3xl p-7.5">
+						<div className="">
+							<span className="text-base font-semibold leading-[150%]">
+								КОЛИЧЕСТВО И РАЗМЕР
+							</span>
+
+							<p className="text-base text-[#3C3C3C] mt-2">
+								Чем больше площадь фасада и элементов, тем выше стоимость. Но
+								цена за м² снижается.
+							</p>
+						</div>
+
+						<p className="font-bold text-base mt-3">{'−5–15% при > 200 м²'}</p>
+					</div>
+					<div className="bg-[#F3F3F3] w-full h-full flex flex-col justify-between md:max-w-[315px] md:h-63.25 mt-2 rounded-3xl p-7.5">
+						<div className="">
+							<span className="text-base font-semibold leading-[150%]">
+								КОЛИЧЕСТВО И РАЗМЕР
+							</span>
+
+							<p className="text-base text-[#3C3C3C] mt-2">
+								Чем больше площадь фасада и элементов, тем выше стоимость. Но
+								цена за м² снижается.
+							</p>
+						</div>
+
+						<p className="font-bold text-base mt-3">{'−5–15% при > 200 м²'}</p>
+					</div>
+					<div className="bg-[#F3F3F3] w-full h-full flex flex-col justify-between md:max-w-[315px] md:h-63.25 mt-2 rounded-3xl p-7.5">
+						<div className="">
+							<span className="text-base font-semibold leading-[150%]">
+								КОЛИЧЕСТВО И РАЗМЕР
+							</span>
+
+							<p className="text-base text-[#3C3C3C] mt-2">
+								Чем больше площадь фасада и элементов, тем выше стоимость. Но
+								цена за м² снижается.
+							</p>
+						</div>
+
+						<p className="font-bold text-base mt-3">{'−5–15% при > 200 м²'}</p>
 					</div>
 				</div>
 			</div>

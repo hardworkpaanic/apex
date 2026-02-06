@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export function Landmark() {
 	return (
-		<section className="mt-15">
+		<section className="mt-15 md:mt-30">
 			<div className="container max-w-[1320px] mx-auto px-4">
 				<div className="flex flex-col md:gap-20 md:justify-between md:flex-row">
 					<div className="md:max-w-[500px]">
@@ -17,11 +17,11 @@ export function Landmark() {
 								unoptimized
 							/>
 						</div>
-						<h2 className="font-semibold mt-2 text-[30px] md:text-[48px] leading-[110%]">
+						<h2 className="font-semibold md:font-bold mt-2 text-[30px] md:text-[48px] leading-[110%]">
 							Инвестиция в архитектуру — прозрачно и честно
 						</h2>
 
-						<p className="mt-5 text-[14px] italic text-[#3C3C3C]">
+						<p className="mt-5 text-[14px] md:text-[16px] md:max-w-[426px] md:mt-55 italic text-[#3C3C3C]">
 							Стоимость вашего фасада зависит от площади и архитектурных
 							решений.  Каждый проект рассчитывается индивидуально после
 							знакомства с вашим объектом.
@@ -33,11 +33,11 @@ export function Landmark() {
 							ОРИЕНТИРЫ СТОИМОСТИ
 						</h5>
 
-						<p className="mt-2 text-[14px] text-[#3C3C3C]">
+						<p className="mt-2 text-[14px] md:text-base text-[#3C3C3C]">
 							Полный цикл под ключ: проектирование + производство + монтаж
 						</p>
 
-						<div className="mt-5 flex flex-col gap-2.5">
+						<div className="mt-5 flex flex-col">
 							<div className="flex flex-col md:flex-row gap-1 mt-2">
 								<div className="bg-[#F3F3F3] md:w-[223px] rounded-2xl flex items-center justify-between p-5">
 									<span className="text-[14px] font-semibold">

@@ -10,7 +10,7 @@ import {
 
 export function Header() {
 	return (
-		<header className="flex items-center justify-between container max-w-[1320px] mx-auto px-4 py-6.25">
+		<header className="flex items-center justify-between container max-w-[1330px] mx-auto px-4 py-6.25">
 			<div className="flex items-center gap-12.5">
 				<Image
 					src={'/logo.svg'}

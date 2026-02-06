@@ -34,22 +34,22 @@ export function Ecosystem() {
 					</div>
 
 					<Image
-						src="/apex-flag.png"
-						alt="apex-flag"
+						src="/homepage/eco/2.png"
+						alt="wjwjw"
 						width={519}
 						height={387}
-						className="mt-2 relative hidden md:block left-[-100px] top-[50px] z-[1] rotate-[-4deg]"
+						className="mt-2 relative hidden md:block"
 					/>
 				</div>
 				{/* TODO: Завтра доделать список */}
 				<div className="w-full max-w-[700px]">
-					<span className="bg-[#171717] hidden md:block max-w-[563px] md:flex items-center gap-3 text-base py-5 px-6 rounded-3xl">
+					<span className="bg-[#171717] hidden md:block max-w-[563px] md:flex items-center gap-3 text-base py-5 px-6 md:px-7 rounded-3xl">
 						<Checkbox checked />С контролем на каждом этапе и гарантированными
 						сроками
 					</span>
 
 					{/* тут */}
-					<div className="hidden md:flex flex-row justify-between px-5 pt-10">
+					<div className="hidden md:flex flex-row md:gap-20 justify-between px-5 pt-10">
 						<div className="flex flex-col gap-7.5">
 							<div className="flex flex-row items-start gap-3">
 								<span className="text-[15px] text-[#7A7A7A] italic">(01)</span>
