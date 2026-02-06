@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export function Team() {
 	return (
-		<section className="bg-black mt-15 rounded-3xl text-white md:py-20 py-10">
+		<section className="bg-black mt-15 rounded-3xl text-white md:py-30 py-10">
 			<div className="container max-w-[1320px] mx-auto px-4">
 				<h2 className="text-[30px] md:text-[48px] font-semibold leading-[110%]">
 					Команда APEX — эксперты своего дела
@@ -57,7 +57,7 @@ export function Team() {
 					</div>
 				</div>
 
-				<h2 className="text-[30px] md:mt-20 md:text-[48px] mt-10 font-semibold leading-[110%]">
+				<h2 className="text-[30px] md:mt-30 md:text-[48px] mt-10 font-semibold leading-[110%]">
 					Наше производство — <br /> технологии и мощности
 				</h2>
 
@@ -77,7 +77,7 @@ export function Team() {
 					src={'/about-us/2-desktop.png'}
 					width={1320}
 					height={282}
-					className="w-full hidden md:block object-contain mt-5 object-center"
+					className="w-full hidden md:block object-contain mt-15 object-center"
 					alt="Производство APEX"
 				/>
 
@@ -111,19 +111,19 @@ export function Team() {
 				</div>
 
 				<div className="flex flex-col mt-10 md:flex-row md:justify-between">
-					<h2 className="text-[30px] text-center md:text-[20px] md:font-normal md:italic md:text-[#B9B9B9] font-semibold leading-[110%]">
+					<h2 className="text-[30px] text-center md:text-[20px] md:font-normal md:italic md:text-[#B9B9B9] font-semibold md:text-start leading-[110%]">
 						Технологические <br /> преимущества
 					</h2>
 
 					<div className="flex flex-col w-full md:max-w-[873px]">
-						<div className="flex flex-col  pb-4 border-b border-white gap-2">
+						<div className="flex flex-col mt-2 pb-4 border-b border-[#3C3C3C] gap-2">
 							<span className="text-[14px] font-bold">ЧПУ-фрезеры</span>
 							<p className="text-[14px] text-[#B9B9B9] italic">
 								Точность 0,1 мм. Изготовлениеформ любой сложности
 							</p>
 						</div>
 
-						<div className="flex flex-col  pb-4 border-b border-white gap-2">
+						<div className="flex flex-col mt-2 pb-4 border-b border-[#3C3C3C] gap-2">
 							<span className="text-[14px] font-bold">
 								Многослойная формовка
 							</span>
@@ -132,7 +132,7 @@ export function Team() {
 							</p>
 						</div>
 
-						<div className="flex flex-col pb-4  gap-2">
+						<div className="flex flex-col pb-4 mt-2 gap-2">
 							<span className="text-[14px] font-bold">Контроль качества</span>
 							<p className="text-[14px] text-[#B9B9B9] italic">
 								Лаборатория. 12 параметров проверки каждого элемента

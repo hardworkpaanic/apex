@@ -2,7 +2,7 @@ import { Users2 } from 'lucide-react'
 
 export function Differences() {
 	return (
-		<section className="container max-w-[1320px] mt-10 mx-auto px-4">
+		<section className="container max-w-[1320px] mt-10 md:mt-30 mx-auto px-4">
 			<h2 className="text-[22px] md:text-[48px] font-bold text-center">
 				Что отличает нас от других
 			</h2>
