@@ -1,12 +1,8 @@
 import { headerMenuItems } from '@/shared/models'
 import Image from 'next/image'
 import Link from 'next/link'
-import {
-	Button,
-	NavigationMenu,
-	NavigationMenuItem,
-	NavigationMenuList
-} from '../ui'
+import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from '../ui'
+import { DialogForm } from './dialog-form'
 
 export function Header() {
 	return (
@@ -37,7 +33,7 @@ export function Header() {
 				<span className="text-[15px] hidden md:block font-bold">
 					+7 (495) 000-00-00
 				</span>
-				<Button>Получить расчет</Button>
+				<DialogForm />
 			</div>
 		</header>
 	)
