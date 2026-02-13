@@ -10,7 +10,7 @@ import Image from 'next/image'
 
 export function Differences() {
 	return (
-		<section className="rounded-t-3xl md:mt-30 z-0 pt-10">
+		<section className="rounded-t-3xl bg-white relative top-[-50px] md:pt-30 z-0 pt-10">
 			<div className="container max-w-[1320px] mx-auto px-4">
 				<div className="flex items-center gap-2">
 					<Image
@@ -48,13 +48,13 @@ export function Differences() {
 					<div className="flex flex-col gap-5">
 						<Item
 							variant={'muted'}
-							className="md:flex-col w-[315px] h-[240px] md:items-start justify-between p-4 rounded-3xl md:gap-25"
+							className="md:flex-col flex w-[315px] h-[240px] md:items-start justify-between p-7 rounded-3xl "
 						>
 							<ItemMedia>
 								<Shield />
 							</ItemMedia>
-							<ItemContent className="">
-								<ItemTitle className="text-[16px]">
+							<ItemContent className="flex-none">
+								<ItemTitle className="text-[16px] text-[#3C3C3C]">
 									Фиксированная цена и сроки. Всё прописано в договоре — без
 									доплат и “непредвиденных работ”
 								</ItemTitle>
@@ -62,13 +62,13 @@ export function Differences() {
 						</Item>
 						<Item
 							variant={'muted'}
-							className="md:flex-col w-[315px] h-[240px] md:items-start md:gap-20 p-4 rounded-3xl"
+							className="md:flex-col w-[315px] h-[240px] md:items-start justify-between p-7 rounded-3xl"
 						>
 							<ItemMedia>
 								<Users />
 							</ItemMedia>
-							<ItemContent>
-								<ItemTitle className="text-[16px]">
+							<ItemContent className="flex-none">
+								<ItemTitle className="text-[16px] text-[#3C3C3C]">
 									Личный менеджер и инженер проекта. Вы общаетесь с одним
 									специалистом, а не с «колл-центром»
 								</ItemTitle>
@@ -79,13 +79,13 @@ export function Differences() {
 					<div className="flex flex-col gap-5">
 						<Item
 							variant={'muted'}
-							className="md:flex-col w-[315px] h-[240px] md:items-start justify-between p-4 rounded-3xl md:gap-25"
+							className="md:flex-col w-[315px] h-[240px] md:items-start justify-between p-7 rounded-3xl"
 						>
 							<ItemMedia>
 								<Landmark />
 							</ItemMedia>
-							<ItemContent className="">
-								<ItemTitle className="text-[16px]">
+							<ItemContent className="flex-none">
+								<ItemTitle className="text-[16px] text-[#3C3C3C]">
 									Фасад под ключ — от идеи до монтажа. Один подрядчик, полная
 									ответственность и контроль.
 								</ItemTitle>
@@ -93,13 +93,13 @@ export function Differences() {
 						</Item>
 						<Item
 							variant={'muted'}
-							className="md:flex-col w-[315px] h-[240px] md:items-start md:gap-15 p-4 rounded-3xl"
+							className="md:flex-col p-7 w-[315px] h-[240px] md:items-start justify-between rounded-3xl"
 						>
 							<ItemMedia>
 								<GraduationCap />
 							</ItemMedia>
-							<ItemContent>
-								<ItemTitle className="text-[16px]">
+							<ItemContent className="flex-none">
+								<ItemTitle className="text-[16px] text-[#3C3C3C]">
 									Сертифицированные фасадные решения. Безопасность и
 									долговечность подтверждены техническим свидетельством ФАУ
 									«ФЦС»
@@ -119,13 +119,13 @@ export function Differences() {
 
 						<Item
 							variant={'muted'}
-							className="md:flex-col w-[315px] h-[240px] md:items-start md:gap-20 p-4 rounded-3xl"
+							className="md:flex-col w-[315px] h-[240px] md:items-start p-7 justify-between rounded-3xl"
 						>
 							<ItemMedia>
 								<Warehouse />{' '}
 							</ItemMedia>
-							<ItemContent>
-								<ItemTitle className="text-[16px]">
+							<ItemContent className="flex-none">
+								<ItemTitle className="text-[16px] text-[#3C3C3C]">
 									Производство и монтаж под контролем одной команды. Без
 									посредников и ошибок на стыке подрядчиков
 								</ItemTitle>
@@ -135,7 +135,10 @@ export function Differences() {
 				</div>
 
 				<div className="flex text-[#3C3C3C] md:hidden flex-col gap-5 mt-5">
-					<Item variant={'muted'}>
+					<Item
+						variant={'muted'}
+						className="p-4"
+					>
 						<ItemMedia>
 							<Shield />
 						</ItemMedia>
@@ -147,7 +150,10 @@ export function Differences() {
 						</ItemContent>
 					</Item>
 
-					<Item variant={'muted'}>
+					<Item
+						variant={'muted'}
+						className="p-4"
+					>
 						<ItemMedia>
 							<Landmark />
 						</ItemMedia>
@@ -167,7 +173,10 @@ export function Differences() {
 						className="w-full bg-contain bg-center"
 					/>
 
-					<Item variant={'muted'}>
+					<Item
+						variant={'muted'}
+						className="p-4"
+					>
 						<ItemMedia>
 							<Users />
 						</ItemMedia>
@@ -191,7 +200,10 @@ export function Differences() {
 						</ItemContent>
 					</Item>
 
-					<Item variant={'muted'}>
+					<Item
+						variant={'muted'}
+						className="p-4"
+					>
 						<ItemMedia>
 							<Warehouse />{' '}
 						</ItemMedia>

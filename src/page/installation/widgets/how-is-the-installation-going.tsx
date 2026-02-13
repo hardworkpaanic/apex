@@ -83,23 +83,23 @@ export function HowIsTheInstallationGoing() {
 							/>
 						</div>
 						<div className="flex flex-col md:flex-row md:gap-[83px] md:border-b md:border-white md:pb-5 gap-2">
-							<span className="text-[15px] text-[#7A7A7A] italic">(01)</span>
+							<span className="text-[15px] text-[#7A7A7A] italic">(02)</span>
 
 							<div className="">
 								<span className="text-base font-semibold">
-									Подготовка фасада и замеры (5 дней)
+									Монтаж подсистемы (от 10 дней)
 								</span>
 								<ul className="list-disc pl-4 flex flex-col mt-2 text-[14px] text-[#B9B9B9] italic">
-									<li>Выезд инженера на объект</li>
-									<li>Проверка геометрии фасада (лазерный уровень)</li>
-									<li>Контрольные замеры (сверка с проектом)</li>
-									<li>Фиксация отклонений и корректировка</li>
-									<li>Составление карты монтажа</li>
+									<li>Разметка точек крепления</li>
+									<li>Монтаж кронштейнов и направляющих</li>
+									<li>Установка анкерных креплений</li>
+									<li>Проверка прочности каждого узла</li>
+									<li>Контроль горизонталей и вертикалей</li>
 								</ul>
 							</div>
 
 							<Image
-								src={'/installation/img.png'}
+								src={'/installation/img2.png'}
 								alt="img"
 								width={139}
 								height={139}
@@ -107,23 +107,23 @@ export function HowIsTheInstallationGoing() {
 							/>
 						</div>
 						<div className="flex flex-col md:flex-row md:gap-[83px] md:border-b md:border-white md:pb-5 gap-2">
-							<span className="text-[15px] text-[#7A7A7A] italic">(01)</span>
+							<span className="text-[15px] text-[#7A7A7A] italic">(03)</span>
 
 							<div className="">
 								<span className="text-base font-semibold">
-									Подготовка фасада и замеры (5 дней)
+									Монтаж элементов декора (от 15 дней)
 								</span>
 								<ul className="list-disc pl-4 flex flex-col mt-2 text-[14px] text-[#B9B9B9] italic">
-									<li>Выезд инженера на объект</li>
-									<li>Проверка геометрии фасада (лазерный уровень)</li>
-									<li>Контрольные замеры (сверка с проектом)</li>
-									<li>Фиксация отклонений и корректировка</li>
-									<li>Составление карты монтажа</li>
+									<li>Установка элементов снизу вверх</li>
+									<li>Ручная подгонка каждого элемента</li>
+									<li>Проверка стыковки (точность 0,5 мм)</li>
+									<li>Крепление специальными зажимами</li>
+									<li>Фото-фиксация каждого этапа</li>
 								</ul>
 							</div>
 
 							<Image
-								src={'/installation/img.png'}
+								src={'/installation/img3.png'}
 								alt="img"
 								width={139}
 								height={139}
@@ -131,23 +131,47 @@ export function HowIsTheInstallationGoing() {
 							/>
 						</div>
 						<div className="flex flex-col md:flex-row md:gap-[83px] md:border-b md:border-white md:pb-5 gap-2">
-							<span className="text-[15px] text-[#7A7A7A] italic">(01)</span>
+							<span className="text-[15px] text-[#7A7A7A] italic">(04)</span>
 
 							<div className="">
 								<span className="text-base font-semibold">
-									Подготовка фасада и замеры (5 дней)
+									Герметизация швов (5-8 дней)
 								</span>
-								<ul className="list-disc pl-4 flex flex-col mt-2 text-[14px] text-[#B9B9B9] italic">
-									<li>Выезд инженера на объект</li>
-									<li>Проверка геометрии фасада (лазерный уровень)</li>
-									<li>Контрольные замеры (сверка с проектом)</li>
-									<li>Фиксация отклонений и корректировка</li>
-									<li>Составление карты монтажа</li>
+								<ul className="list-disc pl-4 flex flex-col mt-2 text-[15px] text-[#B9B9B9] italic">
+									<li>Заполнение швов эластичным герметиком</li>
+									<li>Цвет герметика подбирается под элементы</li>
+									<li>Защита от влаги и температурных расширений</li>
+									<li>Финишная обработка швов</li>
 								</ul>
 							</div>
 
 							<Image
-								src={'/installation/img.png'}
+								src={'/installation/img4.png'}
+								alt="img"
+								width={139}
+								height={139}
+								className="ml-auto"
+							/>
+						</div>
+						<div className="flex flex-col md:flex-row md:gap-[83px] md:border-b md:border-white md:pb-5 gap-2">
+							<span className="text-[15px] text-[#7A7A7A] italic">(05)</span>
+
+							<div className="">
+								<span className="text-base font-semibold">
+									Контроль качества и сдача (2-5 дней)
+								</span>
+								<ul className="list-disc pl-4 flex flex-col mt-2 text-[14px] text-[#B9B9B9] italic">
+									<li>Финальная проверка всех элементов</li>
+									<li>Контрольные замеры геометрии</li>
+									<li>Очистка элементов от пыли и следов</li>
+									<li>Приёмка с заказчиком (обход объекта)</li>
+									<li>Подписание акта выполненных работ</li>
+									<li>Передача гарантийных документов</li>
+								</ul>
+							</div>
+
+							<Image
+								src={'/installation/img5.png'}
 								alt="img"
 								width={139}
 								height={139}
@@ -253,91 +277,87 @@ export function HowIsTheInstallationGoing() {
 
 							<li className="flex flex-row items-center gap-3">
 								<Image
-									src={'/wall.svg'}
+									src={'/temp.svg'}
 									alt="wall"
 									width={24}
 									height={24}
 								/>
 								<div className="flex flex-col">
 									<span className="text-[14px] font-semibold">
-										35% наших объектов
+										Средняя температура
 									</span>
 									<p className="text-[14px]">
-										монтируются в период ноябрь-март
+										при зимнем монтаже: -5°C до -10°C
 									</p>
 								</div>
 							</li>
 
 							<li className="flex flex-row items-center gap-3">
 								<Image
-									src={'/wall.svg'}
+									src={'/ce.svg'}
 									alt="wall"
 									width={24}
 									height={24}
 								/>
 								<div className="flex flex-col">
 									<span className="text-[14px] font-semibold">
-										35% наших объектов
+										Ни одного случая отслоения
 									</span>
-									<p className="text-[14px]">
-										монтируются в период ноябрь-март
-									</p>
+									<p className="text-[14px]">элементов за 10 лет работы</p>
 								</div>
 							</li>
 						</ul>
 					</div>
 
 					<div className="w-full md:px-7 md:py-5">
-						<span className="text-base font-semibold">Статистика:</span>
+						<span className="text-base font-semibold">Ограничения:</span>
 
 						<ul className="flex flex-col mt-5 md:gap-9 gap-4">
 							<li className="flex flex-row items-center gap-3">
 								<Image
-									src={'/wall.svg'}
+									src={'/temp.svg'}
 									alt="wall"
 									width={24}
 									height={24}
 								/>
 								<div className="flex flex-col">
 									<span className="text-[14px] font-semibold">
-										35% наших объектов
+										При температуре ниже -15°C
 									</span>
 									<p className="text-[14px]">
-										монтируются в период ноябрь-март
+										монтаж приостанавливается (безопасность монтажников)
 									</p>
 								</div>
 							</li>
 
 							<li className="flex flex-row items-center gap-3">
 								<Image
-									src={'/wall.svg'}
+									src={'/wind.svg'}
 									alt="wall"
 									width={24}
 									height={24}
 								/>
 								<div className="flex flex-col">
 									<span className="text-[14px] font-semibold">
-										35% наших объектов
+										При сильном ветре {'(>15 м/с)'}
 									</span>
-									<p className="text-[14px]">
-										монтируются в период ноябрь-март
-									</p>
+									<p className="text-[14px]">работы на высоте запрещены</p>
 								</div>
 							</li>
 
 							<li className="flex flex-row items-center gap-3">
 								<Image
-									src={'/wall.svg'}
+									src={'/snow.svg'}
 									alt="wall"
 									width={24}
 									height={24}
 								/>
 								<div className="flex flex-col">
 									<span className="text-[14px] font-semibold">
-										35% наших объектов
+										Во время снегопада
 									</span>
 									<p className="text-[14px]">
-										монтируются в период ноябрь-март
+										монтаж возможен, но скорость снижается
 									</p>
 								</div>
 							</li>
@@ -448,7 +468,7 @@ export function HowIsTheInstallationGoing() {
 						alt="bg"
 						width={347}
 						height={346}
-						className="absolute z-0 bottom-0 left-0"
+						className="absolute z-0 hidden md:block bottom-0 left-0"
 					/>
 				</div>
 			</div>

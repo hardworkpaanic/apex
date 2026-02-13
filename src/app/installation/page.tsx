@@ -5,9 +5,10 @@ import {
 	OurInstallers,
 	QualityControlSystem,
 	Video,
-	WhyIsItSafe
+	WhyIsItSafe,
 } from '@/page/installation/widgets'
 import { Questions } from '@/page/price/widgets'
+import { Footer } from '@/shared/components'
 
 export default function InstallationPage() {
 	return (
@@ -20,6 +21,7 @@ export default function InstallationPage() {
 			<OurInstallers />
 			<Contact />
 			<Questions />
+			<Footer />
 		</main>
 	)
 }

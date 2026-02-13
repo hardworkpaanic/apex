@@ -3,7 +3,7 @@ import Image from 'next/image'
 export function Video() {
 	return (
 		<>
-			<section className="bg-[url('/materials/video.jpg')] md:hidden text-white mt-15 w-full h-80 bg-cover bg-center rounded-3xl flex items-center gap-4 justify-center flex-col">
+			<section className="bg-[url('/materials/video.jpg')] md:hidden text-white mt-15 md:mt-30 w-full h-80 bg-cover bg-center rounded-3xl flex items-center gap-4 justify-center flex-col">
 				<Image
 					src="/play.svg"
 					alt="play"

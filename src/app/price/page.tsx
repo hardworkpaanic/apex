@@ -3,8 +3,9 @@ import {
 	PriceHero,
 	PricingFactors,
 	Questions,
-	Works
+	Works,
 } from '@/page/price/widgets'
+import { Footer } from '@/shared/components'
 
 export default function PricePage() {
 	return (
@@ -14,6 +15,7 @@ export default function PricePage() {
 			<PricingFactors />
 			<Works />
 			<Questions />
+			<Footer />
 		</main>
 	)
 }

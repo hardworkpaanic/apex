@@ -10,11 +10,12 @@ export function Materials() {
 					alt="material"
 					width={343}
 					height={213.83905029296875}
+					unoptimized
 					className="bg-cover md:hidden w-full bg-center"
 				/>
 
 				<Image
-					src="/material-desctop.jpg"
+					src="/material.jpg"
 					alt="material"
 					width={343}
 					height={213.83905029296875}

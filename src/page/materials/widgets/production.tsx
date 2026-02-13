@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export function Production() {
 	return (
-		<section className="bg-[url('/materials/production.jpg')] text-white rounded-t-3xl bg-cover w-full bg-center pt-15 py-5 md:py-20 bg-no-repeat ">
+		<section className="bg-[url('/materials/production.jpg')] text-white rounded-t-3xl bg-cover w-full bg-center pt-15 relative top-[-30px] md:pt-20 py-5 md:py-30 bg-no-repeat ">
 			<div className="container max-w-[1320px] mx-auto px-4">
 				<Image
 					src="/mini-logo.svg"
@@ -28,7 +28,7 @@ export function Production() {
 
 					<Button
 						variant={'secondary'}
-						className="hidden md:block"
+						className="hidden font-normal md:block"
 						size={'lg'}
 					>
 						Записаться на экскурсию

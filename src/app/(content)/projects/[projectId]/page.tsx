@@ -1,9 +1,9 @@
 import { Content, Details, Title } from '@/page/content/widgets'
-import { WelcomeCard } from '@/shared/components'
+import { Footer, WelcomeCard } from '@/shared/components'
 import {
 	Avatar,
 	AvatarFallback,
-	AvatarImage
+	AvatarImage,
 } from '@/shared/components/ui/avatar'
 
 export default function ProjectPage() {
@@ -15,10 +15,7 @@ export default function ProjectPage() {
 			{/* TODO: Сделать слайдер */}
 			<Content />
 
-			<WelcomeCard
-				className="mt-5"
-				variant={'destructive'}
-			>
+			<WelcomeCard className='mt-5' variant={'destructive'}>
 				Добро пожаловать на наш блог, где мы делимся последними тенденциями в
 				строительстве и дизайне. Узнайте о премиум-материалах, инновационных
 				технологиях и лучших практиках, которые помогут вам создать идеальное
@@ -26,10 +23,7 @@ export default function ProjectPage() {
 				получать советы от экспертов!
 			</WelcomeCard>
 
-			<WelcomeCard
-				className="mt-5"
-				variant={'successes'}
-			>
+			<WelcomeCard className='mt-5' variant={'successes'}>
 				Добро пожаловать на наш блог, где мы делимся последними тенденциями в
 				строительстве и дизайне. Узнайте о премиум-материалах, инновационных
 				технологиях и лучших практиках, которые помогут вам создать идеальное
@@ -37,7 +31,7 @@ export default function ProjectPage() {
 				получать советы от экспертов!
 			</WelcomeCard>
 
-			<WelcomeCard className="mt-5">
+			<WelcomeCard className='mt-5'>
 				Добро пожаловать на наш блог, где мы делимся последними тенденциями в
 				строительстве и дизайне. Узнайте о премиум-материалах, инновационных
 				технологиях и лучших практиках, которые помогут вам создать идеальное
@@ -45,26 +39,25 @@ export default function ProjectPage() {
 				получать советы от экспертов!
 			</WelcomeCard>
 
-			<WelcomeCard
-				className="mt-5"
-				variant={'info'}
-			>
+			<WelcomeCard className='mt-5' variant={'info'}>
 				Добро пожаловать на наш блог, где мы делимся последними тенденциями в
 				строительстве и дизайне. Узнайте о премиум-материалах, инновационных
 				технологиях и лучших практиках, которые помогут вам создать идеальное
 				пространство. Присоединяйтесь к нам, чтобы быть в курсе всех новинок и
 				получать советы от экспертов!
-				<div className="flex mt-3 items-center gap-2">
-					<Avatar className="w-10 h-10">
-						<AvatarImage src="/avatar-big.png" />
+				<div className='flex mt-3 items-center gap-2'>
+					<Avatar className='w-10 h-10'>
+						<AvatarImage src='/avatar-big.png' />
 						<AvatarFallback>ИИ</AvatarFallback>
 					</Avatar>
-					<div className="flex flex-col">
-						<p className="text-base font-semibold">Иван Иванов</p>
-						<p className="text-xs">Автор</p>
+					<div className='flex flex-col'>
+						<p className='text-base font-semibold'>Иван Иванов</p>
+						<p className='text-xs'>Автор</p>
 					</div>
 				</div>
 			</WelcomeCard>
+
+			<Footer />
 		</main>
 	)
 }

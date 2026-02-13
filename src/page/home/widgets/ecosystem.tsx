@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 export function Ecosystem() {
 	return (
-		<section className="w-full z-10 bg-black mt-15 text-white rounded-t-3xl pt-15 md:pt-30">
+		<section className="w-full z-10 bg-black mt-15 text-white rounded-t-3xl md:pb-[50px] pt-15 md:pt-30">
 			<div className="container max-w-[1320px] flex flex-col md:flex-row md:justify-between gap-5 mx-auto px-4">
 				<div className="max-w-[538px]">
-					<h2 className="text-[30px] md:text-[48px] font-semibold leading-[110%]">
+					<h2 className="text-[30px] md:font-bold md:text-[48px] font-semibold leading-[110%]">
 						Собственная экосистема — от идеи до фасада за 5 этапов
 					</h2>
 
@@ -51,7 +51,7 @@ export function Ecosystem() {
 					{/* тут */}
 					<div className="hidden md:flex flex-row md:gap-20 justify-between px-5 pt-10">
 						<div className="flex flex-col gap-7.5">
-							<div className="flex flex-row items-start gap-3">
+							<div className="flex flex-row items-start gap-5">
 								<span className="text-[15px] text-[#7A7A7A] italic">(01)</span>
 
 								<div className="flex flex-col gap-2">
@@ -71,7 +71,7 @@ export function Ecosystem() {
 									</p>
 								</div>
 							</div>
-							<div className="flex flex-row items-start gap-3">
+							<div className="flex flex-row items-start gap-5">
 								<span className="text-[15px] text-[#7A7A7A] italic">(03)</span>
 
 								<div className="flex flex-col gap-2">
@@ -89,7 +89,7 @@ export function Ecosystem() {
 									</p>
 								</div>
 							</div>
-							<div className="flex flex-row items-start gap-3">
+							<div className="flex flex-row items-start gap-5">
 								<span className="text-[15px] text-[#7A7A7A] italic">(05)</span>
 
 								<div className="flex flex-col gap-2">
@@ -110,7 +110,7 @@ export function Ecosystem() {
 						</div>
 
 						<div className="flex flex-col gap-7.5">
-							<div className="flex flex-row items-start gap-3">
+							<div className="flex flex-row items-start gap-5">
 								<span className="text-[15px] text-[#7A7A7A] italic">(02)</span>
 
 								<div className="flex flex-col gap-2">
@@ -130,7 +130,7 @@ export function Ecosystem() {
 									</p>
 								</div>
 							</div>
-							<div className="flex flex-row items-start gap-3">
+							<div className="flex flex-row items-start gap-5">
 								<span className="text-[15px] text-[#7A7A7A] italic">(04)</span>
 
 								<div className="flex flex-col gap-2">
@@ -155,7 +155,7 @@ export function Ecosystem() {
 					{/* mpbile */}
 
 					<div className="flex md:hidden flex-col gap-5">
-						<div className="flex flex-row items-start gap-3">
+						<div className="flex flex-row items-start gap-5">
 							<span className="text-[15px] text-[#7A7A7A] italic">(01)</span>
 
 							<div className="flex flex-row gap-2">
@@ -178,7 +178,7 @@ export function Ecosystem() {
 							</div>
 						</div>
 
-						<div className="flex flex-row items-start gap-3">
+						<div className="flex flex-row items-start gap-5">
 							<span className="text-[15px] text-[#7A7A7A] italic">(02)</span>
 
 							<div className="flex flex-row gap-2">
@@ -201,7 +201,7 @@ export function Ecosystem() {
 							</div>
 						</div>
 
-						<div className="flex flex-row items-start gap-3">
+						<div className="flex flex-row items-start gap-5">
 							<span className="text-[15px] text-[#7A7A7A] italic">(03)</span>
 
 							<div className="flex flex-row gap-2">
@@ -222,7 +222,7 @@ export function Ecosystem() {
 							</div>
 						</div>
 
-						<div className="flex flex-row items-start gap-3">
+						<div className="flex flex-row items-start gap-5">
 							<span className="text-[15px] text-[#7A7A7A] italic">(04)</span>
 
 							<div className="flex flex-row gap-2">
@@ -243,7 +243,7 @@ export function Ecosystem() {
 							</div>
 						</div>
 
-						<div className="flex flex-row items-start gap-3">
+						<div className="flex flex-row items-start gap-5">
 							<span className="text-[15px] text-[#7A7A7A] italic">(05)</span>
 
 							<div className="flex flex-row gap-2">

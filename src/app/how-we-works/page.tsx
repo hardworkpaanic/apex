@@ -3,8 +3,9 @@ import {
 	Control,
 	HowWeWorksHero,
 	Stages,
-	StagesList
+	StagesList,
 } from '@/page/how-we-works/widgets'
+import { Footer } from '@/shared/components'
 
 export default function HowWeWorksPage() {
 	return (
@@ -14,6 +15,7 @@ export default function HowWeWorksPage() {
 			<StagesList />
 			<Control />
 			<Conditions />
+			<Footer className='mt-0! rounded-none!' />
 		</main>
 	)
 }

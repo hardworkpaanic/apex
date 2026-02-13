@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export function QualityControlSystem() {
 	return (
-		<section className="mt-15 md:mt-30 container mx-auto max-w-[1330px] px-4">
+		<section className="mt-15 md:mt-30 md:hidden container mx-auto max-w-[1330px] px-4">
 			<div className="flex flex-row justify-between items-end">
 				<div className="md:max-w-[804px]">
 					<div className="flex flex-col gap-2">

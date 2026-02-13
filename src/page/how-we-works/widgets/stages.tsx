@@ -31,7 +31,7 @@ export function Stages() {
 						1
 					</div>
 
-					<div className="">
+					<div className="flex flex-col md:gap-2">
 						<p className="text-base font-semibold">
 							Консультация и 3D-визуализация
 						</p>
@@ -41,27 +41,25 @@ export function Stages() {
 
 				<div className="bg-[#F3F3F3] border border-[#EDEDED] rounded-2xl p-7 flex flex-col justify-between w-full max-w-[315px] h-[253px]">
 					<div className="w-[32px] h-[32px] text-white font-bold text-base rounded-md bg-black flex items-center justify-center">
-						1
+						2
 					</div>
 
-					<div className="">
-						<p className="text-base font-semibold">
-							Консультация и 3D-визуализация
+					<div className="flex flex-col md:gap-2">
+						<p className="text-base font-semibold">Проектирование</p>
+						<p className="text-base">
+							от 20 до 50 рабочих дней (зависит от объёма и <br /> сложности)
 						</p>
-						<p className="text-base">5-10 рабочих дней</p>
 					</div>
 				</div>
 
 				<div className="bg-[#F3F3F3] border border-[#EDEDED] rounded-2xl p-7 flex flex-col justify-between w-full max-w-[315px] h-[253px]">
 					<div className="w-[32px] h-[32px] text-white font-bold text-base rounded-md bg-black flex items-center justify-center">
-						1
+						3
 					</div>
 
-					<div className="">
-						<p className="text-base font-semibold">
-							Консультация и 3D-визуализация
-						</p>
-						<p className="text-base">5-10 рабочих дней</p>
+					<div className="flex flex-col md:gap-2">
+						<p className="text-base font-semibold">Производство</p>
+						<p className="text-base">7–20 дней</p>
 					</div>
 				</div>
 
@@ -75,27 +73,27 @@ export function Stages() {
 
 				<div className="bg-[#F3F3F3] border border-[#EDEDED] rounded-2xl p-7 flex flex-col justify-between w-full max-w-[315px] h-[253px]">
 					<div className="w-[32px] h-[32px] text-white font-bold text-base rounded-md bg-black flex items-center justify-center">
-						1
+						4
 					</div>
 
-					<div className="">
-						<p className="text-base font-semibold">
-							Консультация и 3D-визуализация
+					<div className="flex flex-col md:gap-2">
+						<p className="text-base font-semibold">Монтаж</p>
+						<p className="text-base">
+							20-45 рабочих дней (зависит от объёма и сложности)
 						</p>
-						<p className="text-base">5-10 рабочих дней</p>
 					</div>
 				</div>
 
 				<div className="bg-[#F3F3F3] border border-[#EDEDED] rounded-2xl p-7 flex flex-col justify-between w-full max-w-[315px] h-[253px]">
 					<div className="w-[32px] h-[32px] text-white font-bold text-base rounded-md bg-black flex items-center justify-center">
-						1
+						5
 					</div>
 
-					<div className="">
+					<div className="flex flex-col md:gap-2">
 						<p className="text-base font-semibold">
-							Консультация и 3D-визуализация
+							Контроль качества и сдача проекта
 						</p>
-						<p className="text-base">5-10 рабочих дней</p>
+						<p className="text-base">1 день</p>
 					</div>
 				</div>
 			</div>

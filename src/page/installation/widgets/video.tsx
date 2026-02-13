@@ -3,7 +3,7 @@ import Image from 'next/image'
 export function Video() {
 	return (
 		<>
-			<div className="container mx-auto mt-15 md:mt-30 max-w-[1330px] px-4">
+			<div className="container md:hidden mx-auto mt-15 md:mt-30 max-w-[1330px] px-4">
 				<div className="">
 					<div className="flex items-center gap-2">
 						<Image
@@ -35,7 +35,7 @@ export function Video() {
 			</div>
 
 			{/* Mobile */}
-			<section className="hidden md:flex container max-w-[1320px] mx-auto px-4 text-white w-full h-135 bg-cover bg-center rounded-3xl mt-15 items-center gap-4 justify-center flex-col">
+			<section className="hidden md:hidden container max-w-[1320px] mx-auto px-4 text-white w-full h-135 bg-cover bg-center rounded-3xl mt-15 items-center gap-4 justify-center flex-col">
 				<div className="bg-[url('/home-video-desctop.jpg')]  w-full h-full bg-cover bg-center rounded-3xl flex items-center gap-4 justify-center flex-col">
 					<Image
 						src="/play.svg"

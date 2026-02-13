@@ -154,7 +154,7 @@ export function Conditions() {
 						</div>
 						<div className="border border-[#E5E5E54D] md:max-w-[315px] max-w-[345px] h-[280px] flex flex-col justify-between rounded-3xl p-7">
 							<span className="font-semibold text-base">
-								На этапе консультации
+								На этапе проектирования
 							</span>
 
 							<ul className="flex flex-col gap-2">
@@ -166,7 +166,7 @@ export function Conditions() {
 										height={18}
 									/>
 									<p className="text-[14px] leading-[150%]">
-										Выезжает на объект (если нужно)
+										Координирует работу архитектора и инженера
 									</p>
 								</div>
 
@@ -178,7 +178,7 @@ export function Conditions() {
 										height={18}
 									/>
 									<p className="text-[14px] leading-[150%]">
-										Обсуждает ваши пожелания
+										Согласовывает проект с вами
 									</p>
 								</div>
 
@@ -190,7 +190,7 @@ export function Conditions() {
 										height={18}
 									/>
 									<p className="text-[14px] leading-[150%]">
-										Формирует техническое задание
+										Вносит корректировки
 									</p>
 								</div>
 
@@ -202,25 +202,15 @@ export function Conditions() {
 										height={18}
 									/>
 									<p className="text-[14px] leading-[150%]">
-										Рассчитывает стоимость и сроки
+										Контролирует сроки
 									</p>
-								</div>
-
-								<div className="items-center  flex gap-2">
-									<Image
-										src={'/about-us/list-icon.png'}
-										alt="check"
-										width={18}
-										height={18}
-									/>
-									<p className="text-[14px] leading-[150%]">Готовит договор</p>
 								</div>
 							</ul>
 						</div>
 
 						<div className="border border-[#E5E5E54D] md:max-w-[315px] max-w-[345px] h-[280px] flex flex-col justify-between rounded-3xl p-7">
 							<span className="font-semibold text-base">
-								На этапе консультации
+								На этапе производства
 							</span>
 
 							<ul className="flex flex-col gap-2">
@@ -232,7 +222,7 @@ export function Conditions() {
 										height={18}
 									/>
 									<p className="text-[14px] leading-[150%]">
-										Выезжает на объект (если нужно)
+										Контролирует сроки изготовления
 									</p>
 								</div>
 
@@ -244,7 +234,7 @@ export function Conditions() {
 										height={18}
 									/>
 									<p className="text-[14px] leading-[150%]">
-										Обсуждает ваши пожелания
+										Отправляет фото-отчёты
 									</p>
 								</div>
 
@@ -256,7 +246,7 @@ export function Conditions() {
 										height={18}
 									/>
 									<p className="text-[14px] leading-[150%]">
-										Формирует техническое задание
+										Координирует логистику
 									</p>
 								</div>
 
@@ -268,25 +258,13 @@ export function Conditions() {
 										height={18}
 									/>
 									<p className="text-[14px] leading-[150%]">
-										Рассчитывает стоимость и сроки
+										Решает любые возникающие вопросы
 									</p>
-								</div>
-
-								<div className="items-center  flex gap-2">
-									<Image
-										src={'/about-us/list-icon.png'}
-										alt="check"
-										width={18}
-										height={18}
-									/>
-									<p className="text-[14px] leading-[150%]">Готовит договор</p>
 								</div>
 							</ul>
 						</div>
 						<div className="border border-[#E5E5E54D] md:max-w-[315px] max-w-[345px] h-[280px] flex flex-col justify-between rounded-3xl p-7">
-							<span className="font-semibold text-base">
-								На этапе консультации
-							</span>
+							<span className="font-semibold text-base">На этапе монтажа</span>
 
 							<ul className="flex flex-col gap-2">
 								<div className="items-center flex gap-2">
@@ -297,7 +275,7 @@ export function Conditions() {
 										height={18}
 									/>
 									<p className="text-[14px] leading-[150%]">
-										Выезжает на объект (если нужно)
+										Координирует бригаду монтажников
 									</p>
 								</div>
 
@@ -309,7 +287,7 @@ export function Conditions() {
 										height={18}
 									/>
 									<p className="text-[14px] leading-[150%]">
-										Обсуждает ваши пожелания
+										Контролирует качество и сроки
 									</p>
 								</div>
 
@@ -321,7 +299,7 @@ export function Conditions() {
 										height={18}
 									/>
 									<p className="text-[14px] leading-[150%]">
-										Формирует техническое задание
+										Оперативно решает проблемы на объекте
 									</p>
 								</div>
 
@@ -333,18 +311,8 @@ export function Conditions() {
 										height={18}
 									/>
 									<p className="text-[14px] leading-[150%]">
-										Рассчитывает стоимость и сроки
+										Держит вас в курсе
 									</p>
-								</div>
-
-								<div className="items-center  flex gap-2">
-									<Image
-										src={'/about-us/list-icon.png'}
-										alt="check"
-										width={18}
-										height={18}
-									/>
-									<p className="text-[14px] leading-[150%]">Готовит договор</p>
 								</div>
 							</ul>
 						</div>
@@ -367,9 +335,7 @@ export function Conditions() {
 						</div>
 						<div className="max-w-[315px] w-full"></div>
 						<div className="border border-[#E5E5E54D] md:max-w-[315px] max-w-[345px] h-[280px] flex flex-col justify-between rounded-3xl p-7">
-							<span className="font-semibold text-base">
-								На этапе консультации
-							</span>
+							<span className="font-semibold text-base">На этапе сдачи:</span>
 
 							<ul className="flex flex-col gap-2">
 								<div className="items-center flex gap-2">
@@ -380,7 +346,7 @@ export function Conditions() {
 										height={18}
 									/>
 									<p className="text-[14px] leading-[150%]">
-										Выезжает на объект (если нужно)
+										Организует финальную приёмку
 									</p>
 								</div>
 
@@ -392,7 +358,7 @@ export function Conditions() {
 										height={18}
 									/>
 									<p className="text-[14px] leading-[150%]">
-										Обсуждает ваши пожелания
+										Готовит документы
 									</p>
 								</div>
 
@@ -404,7 +370,7 @@ export function Conditions() {
 										height={18}
 									/>
 									<p className="text-[14px] leading-[150%]">
-										Формирует техническое задание
+										Передаёт гарантии
 									</p>
 								</div>
 
@@ -416,7 +382,7 @@ export function Conditions() {
 										height={18}
 									/>
 									<p className="text-[14px] leading-[150%]">
-										Рассчитывает стоимость и сроки
+										Остаётся вашим контактом на весь гарантийный срок
 									</p>
 								</div>
 
@@ -552,27 +518,33 @@ export function Conditions() {
 						</div>
 						<div className="flex flex-col mt-5">
 							<span className="text-[24px] font-semibold">✓ 10%</span>
-							<p className="text-[14px]">
+							<p className="text-[14px] md:text-base">
 								— Минимальный аванс для старта проектирования
 							</p>
-							<p className="text-[14px]">
+							<p className="text-[14px] md:text-base">
 								Вы видите 3D-визуализацию до основных вложений
 							</p>
 						</div>
 
 						<div className="flex flex-col mt-5">
 							<span className="text-[24px] font-semibold">✓ 40%</span>
-							<p className="text-[14px]">— Только после утверждения проекта</p>
-							<p className="text-[14px]">
+							<p className="text-[14px] md:text-base">
+								— Только после утверждения проекта
+							</p>
+							<p className="text-[14px] md:text-base">
 								Вы платите, когда довольны результатом │
 							</p>
-							<p className="text-[14px]">Мы запускаем производство</p>
+							<p className="text-[14px] md:text-base">
+								Мы запускаем производство
+							</p>
 						</div>
 
 						<div className="flex flex-col mt-5">
 							<span className="text-[24px] font-semibold">✓ 50%</span>
-							<p className="text-[14px]">— Перед отгрузкой готовых изделий │</p>
-							<p className="text-[14px]">
+							<p className="text-[14px] md:text-base">
+								— Перед отгрузкой готовых изделий │
+							</p>
+							<p className="text-[14px] md:text-base">
 								Вы видите качество до финального платежа
 							</p>
 						</div>
@@ -580,78 +552,69 @@ export function Conditions() {
 					<div className="border mt-10 md:max-w-[426px] border-white/15 rounded-3xl p-7">
 						<div className="flex flex-row items-center gap-3">
 							<Image
-								src={'/HowWeWorks/oplasy.svg'}
+								src={'/HowWeWorks/oplasy2.svg'}
 								width={30}
 								height={30}
 								alt="oplasy"
 							/>
-							<p className="text-base font-semibold">
-								Проектирование и производство изделий:
-							</p>
+							<p className="text-base font-semibold">Монтаж на объекте</p>
 						</div>
-						<div className="flex flex-col mt-5">
-							<span className="text-[24px] font-semibold">✓ 10%</span>
-							<p className="text-[14px]">
-								— Минимальный аванс для старта проектирования
-							</p>
-							<p className="text-[14px]">
-								Вы видите 3D-визуализацию до основных вложений
-							</p>
-						</div>
-
 						<div className="flex flex-col mt-5">
 							<span className="text-[24px] font-semibold">✓ 40%</span>
-							<p className="text-[14px]">— Только после утверждения проекта</p>
-							<p className="text-[14px]">
-								Вы платите, когда довольны результатом │
+							<p className="text-[14px] md:text-base">
+								— При начале монтажных работ Бригада выезжает на объект
 							</p>
-							<p className="text-[14px]">Мы запускаем производство</p>
 						</div>
 
 						<div className="flex flex-col mt-5">
-							<span className="text-[24px] font-semibold">✓ 50%</span>
-							<p className="text-[14px]">— Перед отгрузкой готовых изделий │</p>
-							<p className="text-[14px]">
-								Вы видите качество до финального платежа
+							<span className="text-[24px] font-semibold">✓ Остаток</span>
+							<p className="text-[14px] md:text-base">
+								— Раз в 20 дней за реально выполненные объёмы
+							</p>
+						</div>
+
+						<div className="flex flex-col mt-5">
+							<p className="text-[14px] italic md:text-base">
+								Платите только за то, что уже смонтировано Никаких авансов "в
+								никуда"
 							</p>
 						</div>
 					</div>
 					<div className="border mt-10 md:max-w-[426px] border-white/15 rounded-3xl p-7">
 						<div className="flex flex-row items-center gap-3">
 							<Image
-								src={'/HowWeWorks/oplasy.svg'}
+								src={'/HowWeWorks/oplasy3.svg'}
 								width={30}
 								height={30}
 								alt="oplasy"
 							/>
-							<p className="text-base font-semibold">
-								Проектирование и производство изделий:
-							</p>
+							<p className="text-base font-semibold">Гибкие схемы оплаты:</p>
 						</div>
 						<div className="flex flex-col mt-5">
-							<span className="text-[24px] font-semibold">✓ 10%</span>
-							<p className="text-[14px]">
-								— Минимальный аванс для старта проектирования
-							</p>
-							<p className="text-[14px]">
-								Вы видите 3D-визуализацию до основных вложений
+							<span className="text-[24px] font-semibold">
+								Оплата по этапам
+							</span>
+							<p className="text-[14px] md:text-base">
+								(индивидуальный график)
 							</p>
 						</div>
 
 						<div className="flex flex-col mt-5">
-							<span className="text-[24px] font-semibold">✓ 40%</span>
-							<p className="text-[14px]">— Только после утверждения проекта</p>
-							<p className="text-[14px]">
-								Вы платите, когда довольны результатом │
+							<span className="text-[24px] font-semibold">Постоплата</span>
+							<p className="text-[14px] md:text-base">
+								для застройщиков (при объёме 5+ млн)
 							</p>
-							<p className="text-[14px]">Мы запускаем производство</p>
 						</div>
 
 						<div className="flex flex-col mt-5">
-							<span className="text-[24px] font-semibold">✓ 50%</span>
-							<p className="text-[14px]">— Перед отгрузкой готовых изделий │</p>
-							<p className="text-[14px]">
-								Вы видите качество до финального платежа
+							<span className="text-[24px] font-semibold">
+								Что НЕ входит в стоимость:
+							</span>
+							<p className="text-[14px] md:text-base">
+								— Электромонтажные работы (если нужна подсветка декора)
+							</p>
+							<p className="text-[14px] md:text-base">
+								— Ландшафтные работы вокруг дома
 							</p>
 						</div>
 					</div>
