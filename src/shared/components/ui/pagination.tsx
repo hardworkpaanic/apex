@@ -53,7 +53,10 @@ function PaginationLink({
       asChild
       variant={isActive ? "default" : "pagination"}
       size={size}
-      className={cn(className, "w-[50px] h-[50px]")}
+      className={cn(
+        className,
+        "w-[50px] h-[50px] transition-colors duration-300 hover:bg-black hover:text-white",
+      )}
     >
       <a
         aria-current={isActive ? "page" : undefined}
