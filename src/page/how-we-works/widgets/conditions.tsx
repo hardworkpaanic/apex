@@ -434,17 +434,17 @@ export function Conditions() {
               доплачиваем сами.
             </p>
           </div>
-          <div className="md:max-w-[427px]">
-            <p className="mt-5 md:mt-2 text-[14px] ">
+          <div className="md:max-w-[538px]">
+            <p className="mt-5 md:mt-2 text-[14px] italic leading-[150%]">
               "Одна из главных болей при работе с подрядчиками — постоянные
               доплаты: 'не учли', 'не знали', 'так вышло'. 
             </p>
 
-            <p className="mt-5 text-[14px] ">
+            <p className="mt-5 text-[14px] italic leading-[150%]">
               Мы работаем иначе: фиксируем цену в договоре после утверждения
-              проекта. И эта цена не изменится, даже если: — Мы ошиблись в
-              расчётах — Что-то не учли при проектировании — Изменился курс
-              валюты или выросли цены на материалы"
+              проекта. И эта цена не изменится, даже если: <br /> — Мы ошиблись
+              в расчётах <br /> — Что-то не учли при проектировании <br /> —
+              Изменился курс валюты или выросли цены на материалы"
             </p>
           </div>
         </div>
@@ -476,7 +476,7 @@ export function Conditions() {
             </div>
           </div>
 
-          <div className="bg-[#1C1C1C] md:max-w-[650px] flex flex-col md:justify-between md:h-[460px] w-full mt-10 rounded-3xl px-4 md:px-10 py-10">
+          <div className="bg-[#1C1C1C] md:max-w-[650px] flex flex-col md:justify-between md:h-[460px] w-full mt-10 rounded-3xl px-4 md:px-10 pt-10 pb-7">
             <div className="">
               <h6 className="text-[22px] font-semibold">
                 Когда цена МОЖЕТ измениться (только по согласованию):

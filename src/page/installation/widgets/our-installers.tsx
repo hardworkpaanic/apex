@@ -214,7 +214,6 @@ export function OurInstallers() {
           </div>
         </div>
       </section>
-
       <section className="container hidden md:block mt-15 md:mt-30 max-w-[1330px] mx-auto px-4">
         <div className="flex flex-col md:gap-[132px] md:flex-row">
           <Image
@@ -311,7 +310,6 @@ export function OurInstallers() {
           </div>
         </div>
       </section>
-
       <>
         <div className="container hidden md:block mx-auto mt-15 md:mt-30 max-w-[1330px] px-4">
           <div className="">
@@ -348,7 +346,6 @@ export function OurInstallers() {
           </div>
         </section>
       </>
-
       <section className="mt-15 md:mt-30 md:block pb-30 container mx-auto max-w-[1330px] px-4">
         <div className="flex flex-row justify-between items-end">
           <div className="md:max-w-[804px]">
@@ -508,8 +505,11 @@ export function OurInstallers() {
         </div>
       </section>
 
-      <div className="bg-[url('/quality-control-tools.svg')] bg-cover w-full h-[620.5594482421875px] bg-center rounded-2xl">
-        <div className="container max-w-[1330px] pt-10 flex flex-col gap-5 mx-auto px-4">
+      <div className="container max-w-[1330px]  mx-auto rounded-2xl">
+        <div
+          className=" bg-[url('/quality-control-tools.svg')] bg-cover w-full
+      h-[620.5594482421875px] bg-center rounded-[30px] pt-10 flex flex-col gap-5 px-[50px]"
+        >
           <div className="bg-white max-w-[634px] rounded-2xl p-5">
             <h4 className="font-bold text-base leading-[110%]">
               Инструменты контроля качества:
@@ -629,7 +629,6 @@ export function OurInstallers() {
           </div>
         </div>
       </div>
-
       <section className="container py-15 mx-auto px-4 max-w-[1330px]">
         <div className="py-7 flex flex-col gap-5 text-center">
           <h3 className="text-[30px] md:text-[54px] font-bold leading-[110%]">

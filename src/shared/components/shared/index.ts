@@ -1,7 +1,8 @@
-export { ArticleCard } from './article-card'
-export { Breadcrumbs } from './breadcrumbs'
-export { DialogForm } from './dialog-form'
-export { Footer } from './footer'
-export { Header } from './header'
-export { ProjectCard } from './project-card'
-export { WelcomeCard } from './welcome-card'
+export { ArticleCard } from "./article-card";
+export { Breadcrumbs } from "./breadcrumbs";
+export { DialogForm } from "./dialog-form";
+export { Footer } from "./footer";
+export { Header } from "./header";
+export { ProjectCard } from "./project-card";
+export { WelcomeCard } from "./welcome-card";
+export { PaginationComponent } from "./pagination-component";
