@@ -6,3 +6,4 @@ export { Header } from "./header";
 export { ProjectCard } from "./project-card";
 export { WelcomeCard } from "./welcome-card";
 export { PaginationComponent } from "./pagination-component";
+export { MobileMenu } from "./mobile-menu";

@@ -56,12 +56,12 @@ export function Comparisons() {
                 alt="a"
                 width={1021.7252197265625}
                 height={869.2107543945312}
-                className="absolute object-cover w-[1021px] h-[869px] top-[-150px] z-0 left-20"
+                className="absolute object-cover hidden md:block w-[1021px] h-[869px] top-[-150px] z-0 left-20"
               />
             </div>
           </div>
 
-          <div className="w-1/2">
+          <div className="md:w-1/2">
             <div className="flex flex-col md:flex-row gap-5">
               <div className="bg-white max-w-[315px] w-full rounded-2xl mt-5 p-5">
                 <div className="flex items-center gap-2">
