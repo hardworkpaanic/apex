@@ -22,7 +22,7 @@ export function Questions() {
             />
           </div>
           <h2 className="font-semibold mt-2 md:text-[48px] max-w-[427px] text-[30px] leading-[110%]">
-            Часто задаваемые вопросы о ценах{" "}
+            Ответы на частые вопросы
           </h2>
         </div>
         <Accordion
@@ -33,20 +33,18 @@ export function Questions() {
         >
           <AccordionItem className="" value="item-1">
             <AccordionTrigger className="text-[16px] md:text-[18px] font-semibold">
-              Почему APEX дороже, чем у конкурентов?
+              Чем полимербетон отличается от искусственного камня?
             </AccordionTrigger>
             <AccordionContent>
-              Мы предлагаем полный цикл услуг 'под ключ': архитектурное
-              проектирование, 3D-визуализация, производство премиального
-              материала (85% натурального камня), профессиональный монтаж с
-              гарантией. Конкуренты часто продают только элементы без монтажа.
-              Плюс, на дистанции 25 лет наш материал экономит до 15 млн рублей
-              (не требует покраски и ремонта).
+              Полимербетон на 85% состоит из натурального мрамора и доломита.
+              Искусственный камень обычно содержит 20-40% натуральной крошки.
+              Наш материал ближе к натуральному камню по составу и визуалу, но
+              превосходит его по техническим характеристикам.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem className="" value="item-2">
             <AccordionTrigger className="text-[16px] md:text-[18px] font-semibold">
-              Входит ли монтаж в стоимость?
+              Безопасен ли материал для здоровья?
             </AccordionTrigger>
             <AccordionContent>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
@@ -57,7 +55,7 @@ export function Questions() {
           </AccordionItem>
           <AccordionItem className="" value="item-3">
             <AccordionTrigger className="text-[16px] md:text-[18px] font-semibold">
-              Можно ли получить скидку?
+              Как материал ведёт себя при морозах?
             </AccordionTrigger>
             <AccordionContent>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
@@ -68,7 +66,7 @@ export function Questions() {
           </AccordionItem>
           <AccordionItem className="" value="item-4">
             <AccordionTrigger className="text-[16px] md:text-[18px] font-semibold">
-              Что входит в проектирование?
+              Не выгорит ли материал на солнце?
             </AccordionTrigger>
             <AccordionContent>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
@@ -79,7 +77,7 @@ export function Questions() {
           </AccordionItem>
           <AccordionItem className="" value="item-5">
             <AccordionTrigger className="text-[16px] md:text-[18px] font-semibold">
-              Входит ли 3D-визуализация в стоимость?
+              Можно ли отличить полимербетон от натурального камня визуально?
             </AccordionTrigger>
             <AccordionContent>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
@@ -90,7 +88,7 @@ export function Questions() {
           </AccordionItem>
           <AccordionItem className="" value="item-6">
             <AccordionTrigger className="text-[16px] md:text-[18px] font-semibold">
-              Могут ли измениться цены в процессе работы?
+              Требует ли материал обслуживания?
             </AccordionTrigger>
             <AccordionContent>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
@@ -101,7 +99,7 @@ export function Questions() {
           </AccordionItem>
           <AccordionItem className="" value="item-7">
             <AccordionTrigger className="text-[16px] md:text-[18px] font-semibold">
-              Как быстро готовится расчёт?
+              Как материал крепится к фасаду?
             </AccordionTrigger>
             <AccordionContent>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
@@ -112,7 +110,7 @@ export function Questions() {
           </AccordionItem>
           <AccordionItem className="" value="item-8">
             <AccordionTrigger className="text-[16px] md:text-[18px] font-semibold">
-              Что если мой бюджет меньше?
+              Можно ли монтировать зимой?
             </AccordionTrigger>
             <AccordionContent>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
@@ -123,7 +121,7 @@ export function Questions() {
           </AccordionItem>
           <AccordionItem className="" value="item-9">
             <AccordionTrigger className="text-[16px] md:text-[18px] font-semibold">
-              Можно ли оплатить не всю сумму сразу?
+              Какой реальный срок службы материала?
             </AccordionTrigger>
             <AccordionContent>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
@@ -134,7 +132,7 @@ export function Questions() {
           </AccordionItem>
           <AccordionItem className="" value="item-10">
             <AccordionTrigger className="text-[16px] md:text-[18px] font-semibold">
-              Как оплачивать — сразу всю сумму?
+              Можно ли сделать индивидуальный цвет или текстуру?
             </AccordionTrigger>
             <AccordionContent>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
