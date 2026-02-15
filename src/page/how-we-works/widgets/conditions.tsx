@@ -86,8 +86,9 @@ export function Conditions() {
             </p>
           </div>
 
-          <div className="mt-5 md:mt-15 flex flex-col md:flex-row md:justify-between md:flex-wrap">
-            <div className="border border-[#E5E5E54D] md:max-w-[315px] max-w-[345px] h-[280px] flex flex-col justify-between rounded-3xl p-7">
+          <div className="mt-5 md:mt-15 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+            {/* Карточка 1 - Консультация */}
+            <div className="border border-[#E5E5E54D] w-full h-[280px] flex flex-col justify-between rounded-3xl p-7">
               <span className="font-semibold text-base">
                 На этапе консультации
               </span>
@@ -152,7 +153,9 @@ export function Conditions() {
                 </div>
               </ul>
             </div>
-            <div className="border border-[#E5E5E54D] md:max-w-[315px] max-w-[345px] h-[280px] flex flex-col justify-between rounded-3xl p-7">
+
+            {/* Карточка 2 - Проектирование */}
+            <div className="border border-[#E5E5E54D] w-full h-[280px] flex flex-col justify-between rounded-3xl p-7">
               <span className="font-semibold text-base">
                 На этапе проектирования
               </span>
@@ -208,7 +211,8 @@ export function Conditions() {
               </ul>
             </div>
 
-            <div className="border border-[#E5E5E54D] md:max-w-[315px] max-w-[345px] h-[280px] flex flex-col justify-between rounded-3xl p-7">
+            {/* Карточка 3 - Производство */}
+            <div className="border border-[#E5E5E54D] w-full h-[280px] flex flex-col justify-between rounded-3xl p-7">
               <span className="font-semibold text-base">
                 На этапе производства
               </span>
@@ -263,7 +267,9 @@ export function Conditions() {
                 </div>
               </ul>
             </div>
-            <div className="border border-[#E5E5E54D] md:max-w-[315px] max-w-[345px] h-[280px] flex flex-col justify-between rounded-3xl p-7">
+
+            {/* Карточка 4 - Монтаж */}
+            <div className="border border-[#E5E5E54D] w-full h-[280px] flex flex-col justify-between rounded-3xl p-7">
               <span className="font-semibold text-base">На этапе монтажа</span>
 
               <ul className="flex flex-col gap-2">
@@ -316,25 +322,28 @@ export function Conditions() {
                 </div>
               </ul>
             </div>
-            <div className="max-w-[315px] bg-linear-to-r from-[#5A5C69] to-[#20232C]   h-[280px] flex flex-col justify-between rounded-3xl p-7">
+
+            {/* Карточка 5 - Как связаться с менеджером (выделенная) */}
+            <div className="bg-linear-to-r from-[#5A5C69] to-[#20232C] w-full h-[280px] flex flex-col justify-between rounded-3xl p-7">
               <span className="font-semibold text-[20px]">
                 Как связаться с менеджером:
               </span>
 
               <ul>
                 <li className="text-[14px]">- Телефон (прямой мобильный)</li>
-
-                <li className="text-[14px]">- WhatsApp / Telegram)</li>
-
+                <li className="text-[14px]">- WhatsApp / Telegram</li>
                 <li className="text-[14px]">- Email</li>
-
                 <li className="text-[14px]">
                   - Время ответа: в течение 2 часов (пн-пт 9:00-20:00)
                 </li>
               </ul>
             </div>
-            <div className="max-w-[315px] w-full"></div>
-            <div className="border border-[#E5E5E54D] md:max-w-[315px] max-w-[345px] h-[280px] flex flex-col justify-between rounded-3xl p-7">
+
+            {/* Пустой блок для структуры */}
+            <div className="w-full hidden lg:block"></div>
+
+            {/* Карточка 6 - Сдача (с отступами по бокам) */}
+            <div className="border border-[#E5E5E54D] w-full h-[280px] flex flex-col justify-between rounded-3xl p-7 lg:col-start-3">
               <span className="font-semibold text-base">На этапе сдачи:</span>
 
               <ul className="flex flex-col gap-2">
@@ -397,7 +406,9 @@ export function Conditions() {
                 </div>
               </ul>
             </div>
-            <div className="max-w-[315px] w-full"></div>
+
+            {/* Еще один пустой блок для баланса (опционально) */}
+            <div className="w-full hidden lg:block"></div>
           </div>
         </div>
 

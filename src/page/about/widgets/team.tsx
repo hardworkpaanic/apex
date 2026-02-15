@@ -237,7 +237,7 @@ export function Team() {
                   <p>Контроль сырья (мрамор, смола, пигменты)</p>
                 </div>
 
-                <div className="items-center mt-4 flex gap-2">
+                <div className="items-center mt-[5px] flex gap-2">
                   <Image
                     src={"/about-us/list-icon.png"}
                     alt="check"
@@ -247,7 +247,7 @@ export function Team() {
                   <p>Проверка форм перед использованием</p>
                 </div>
 
-                <div className="items-center mt-4 flex gap-2">
+                <div className="items-center mt-[5px] flex gap-2">
                   <Image
                     src={"/about-us/list-icon.png"}
                     alt="check"
@@ -260,7 +260,7 @@ export function Team() {
                   </p>
                 </div>
 
-                <div className="items-center mt-4 flex gap-2">
+                <div className="items-center mt-[5px] flex gap-2">
                   <Image
                     src={"/about-us/list-icon.png"}
                     alt="check"
@@ -286,7 +286,7 @@ export function Team() {
                   <p>Проверка геометрии (размеры, углы))</p>
                 </div>
 
-                <div className="items-center mt-4 flex gap-2">
+                <div className="items-center mt-[5px] flex gap-2">
                   <Image
                     src={"/about-us/list-icon.png"}
                     alt="check"
@@ -296,7 +296,7 @@ export function Team() {
                   <p>Контроль цвета (соответствие эталону)</p>
                 </div>
 
-                <div className="items-center mt-4 flex gap-2">
+                <div className="items-center mt-[5px] flex gap-2">
                   <Image
                     src={"/about-us/list-icon.png"}
                     alt="check"
@@ -306,7 +306,7 @@ export function Team() {
                   <p>Проверка фактуры и текстуры</p>
                 </div>
 
-                <div className="items-center mt-4 flex gap-2">
+                <div className="items-center mt-[5px] flex gap-2">
                   <Image
                     src={"/about-us/list-icon.png"}
                     alt="check"
@@ -616,11 +616,27 @@ export function Team() {
               Мы предлагаем:
             </p>
 
-            <ul className="list-disc text-[#B9B9B9] text-[14px] flex flex-col gap-2 mt-2 pl-4">
-              <li>Партнёрскую программу</li>
-              <li>Техническую поддержку</li>
-              <li>BIM-библиотеки</li>
-              <li>Обучение</li>
+            <ul className="text-[#B9B9B9] text-[14px] flex flex-col gap-2 mt-2">
+              <li className="flex items-center gap-1">
+                {" "}
+                <img src={"/about-us/Framesvg.svg"} />
+                Партнёрскую программу
+              </li>
+              <li className="flex items-center gap-1">
+                {" "}
+                <img src={"/about-us/Framesvg.svg"} />
+                Техническую поддержку
+              </li>
+              <li className="flex items-center gap-1">
+                {" "}
+                <img src={"/about-us/Framesvg.svg"} />
+                BIM-библиотеки
+              </li>
+              <li className="flex items-center gap-1">
+                {" "}
+                <img src={"/about-us/Framesvg.svg"} />
+                Обучение
+              </li>
             </ul>
 
             <Button className="font-bold mt-5 w-[171px]" variant={"secondary"}>
@@ -637,11 +653,22 @@ export function Team() {
               Открытые позиции:
             </p>
 
-            <ul className="list-disc text-white text-[14px] flex flex-col gap-2 mt-2 pl-4">
-              <li>Архитектор</li>
-              <li>Технолог</li>
-              <li>Монтажник</li>
-              <li>Менеджер проектов</li>
+            <ul className="text-white text-[14px] flex flex-col gap-2 mt-2 ">
+              <li className="flex items-center gap-1">
+                <img src={"/about-us/st.svg"} /> Архитектор
+              </li>
+              <li className="flex items-center gap-1">
+                <img src={"/about-us/st.svg"} />
+                Технолог
+              </li>
+              <li className="flex items-center gap-1">
+                <img src={"/about-us/st.svg"} />
+                Монтажник
+              </li>
+              <li className="flex items-center gap-1">
+                <img src={"/about-us/st.svg"} />
+                Менеджер проектов
+              </li>
             </ul>
 
             <Button className="font-bold mt-5 w-[191px]" variant={"secondary"}>

@@ -135,13 +135,17 @@ export function Works() {
         <div className="flex gap-2 flex-col md:flex-row justify-between">
           <div className="w-full">
             {" "}
-            <div className="bg-[#171717] mt-7.5 rounded-[30px] px-4 py-5">
+            <div className="bg-[#1E1E1E] mt-7.5 rounded-[30px] px-4 md:px-7 md:py-7 py-5">
               <h3 className="flex text-base font-semibold items-center gap-2">
-                <img className="w-5 h-5" src="/price/rub.svg" alt="rub" />
+                <img
+                  className="w-5 md:w-10 md:h-10 h-5"
+                  src="/price/rub.svg"
+                  alt="rub"
+                />
                 Умная поэтапная оплата
               </h3>
 
-              <div className="flex gap-3 mt-4 items-center">
+              <div className="flex gap-3 mt-5 items-center">
                 <div className="bg-black flex items-center justify-center font-bold rounded-[10px] w-8 h-8">
                   1
                 </div>
@@ -157,7 +161,7 @@ export function Works() {
                 </div>
               </div>
 
-              <div className="flex gap-3 mt-4 items-center">
+              <div className="flex gap-3 mt-5 items-center">
                 <div className="bg-black flex items-center justify-center font-bold rounded-[10px] w-8 h-8">
                   2
                 </div>
@@ -173,7 +177,7 @@ export function Works() {
                 </div>
               </div>
 
-              <div className="flex gap-3 mt-4 items-center">
+              <div className="flex gap-3 mt-5 items-center">
                 <div className="bg-black flex items-center justify-center font-bold rounded-[10px] w-8 h-8">
                   3
                 </div>
@@ -189,12 +193,12 @@ export function Works() {
                 </div>
               </div>
             </div>
-            <div className="bg-[#171717] mt-2.5 rounded-[30px] px-4 py-5">
+            <div className="bg-[#1E1E1E] mt-2.5 rounded-[30px] px-4 md:px-7 md:py-7 py-5">
               <h3 className="flex text-base font-semibold items-center gap-2">
                 Этапы оплаты за монтаж
               </h3>
 
-              <div className="flex gap-3 mt-4 items-center">
+              <div className="flex gap-3 mt-5 items-center">
                 <div className="bg-black flex items-center justify-center font-bold rounded-[10px] w-8 h-8">
                   1
                 </div>
@@ -210,7 +214,7 @@ export function Works() {
                 </div>
               </div>
 
-              <div className="flex gap-3 mt-4 items-center">
+              <div className="flex gap-3 mt-5 items-center">
                 <div className="bg-black flex items-center justify-center font-bold rounded-[10px] w-8 h-8">
                   2
                 </div>
@@ -230,13 +234,17 @@ export function Works() {
           </div>
 
           <div className="flex w-full flex-col gap-2">
-            <div className="bg-[#171717] mt-7.5 rounded-[30px] px-4 py-5">
+            <div className="bg-[#1E1E1E] mt-7.5 rounded-[30px] px-4 md:px-7 md:py-7 py-5">
               <h3 className="flex text-base font-semibold items-center gap-2">
-                <img className="w-5 h-5" src="/price/port.svg" alt="rub" />
-                Умная поэтапная оплата
+                <img
+                  className="w-5 md:w-10 md:h-10 h-5"
+                  src="/price/port.svg"
+                  alt="rub"
+                />
+                Для юридических лиц
               </h3>
 
-              <div className="flex flex-col mt-5 gap-2">
+              <div className="flex flex-col mt-5 gap-3.5">
                 <div className="flex items-center gap-5">
                   <img src="/price/list-w.svg" alt="" />
 
