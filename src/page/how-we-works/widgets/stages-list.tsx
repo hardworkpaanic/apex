@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export function StagesList() {
   return (
-    <section className="container mt-30 max-w-[1330px] mx-auto px-4">
+    <section className="container mt-5 md:mt-30 max-w-[1330px] mx-auto px-4">
       <div className="flex flex-col gap-10">
         {/* STAGE */}
         <div className="flex flex-col md:flex-row md:justify-between gap-10">
@@ -545,6 +545,7 @@ export function StagesList() {
             <Image
               src={"/HowWeWorks/stage1.png"}
               alt="stage1"
+              className="hidden md:block"
               width={538}
               height={600}
             />
@@ -1023,6 +1024,7 @@ export function StagesList() {
                 src={"/HowWeWorks/stage2.png"}
                 alt="stage1"
                 width={538}
+                className="hidden md:block"
                 height={600}
               />
             </div>
@@ -1520,6 +1522,7 @@ export function StagesList() {
           <div className="max-w-[538px]">
             <Image
               src={"/HowWeWorks/stage3.png"}
+              className="hidden md:block"
               alt="stage1"
               width={538}
               height={600}
@@ -2043,6 +2046,7 @@ export function StagesList() {
               <Image
                 src={"/HowWeWorks/stage4.png"}
                 alt="stage1"
+                className="hidden md:block"
                 width={538}
                 height={600}
               />
@@ -2576,6 +2580,7 @@ export function StagesList() {
             <Image
               src={"/HowWeWorks/stage5.png"}
               alt="stage1"
+              className="hidden md:block"
               width={538}
               height={600}
             />

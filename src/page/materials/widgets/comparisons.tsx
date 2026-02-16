@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function Comparisons() {
   return (
-    <section className="bg-[#F0F0F0] mt-15 md:mt-30 md:pb-30 rounded-t-3xl md:pt-30 py-50">
+    <section className="bg-[#F0F0F0] mt-15 md:mt-30 md:pb-30 rounded-t-3xl py-10 md:pt-30 md:py-50">
       <div className="container max-w-[1320px] mx-auto px-4">
         <div className="flex items-center gap-2">
           <Image

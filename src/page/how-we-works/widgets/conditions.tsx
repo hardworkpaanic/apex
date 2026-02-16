@@ -758,12 +758,12 @@ export function Conditions() {
             </p>
           </div>
           <div className="md:max-w-[538px]">
-            <p className="mt-5 md:mt-2 text-[14px] italic leading-[150%]">
+            <p className="mt-5 md:mt-2 text-[14px] text-[#B9B9B9] md:text-white italic leading-[150%]">
               "Одна из главных болей при работе с подрядчиками — постоянные
               доплаты: 'не учли', 'не знали', 'так вышло'. 
             </p>
 
-            <p className="mt-5 text-[14px] italic leading-[150%]">
+            <p className="mt-5 text-[14px] italic text-[#B9B9B9] md:text-white leading-[150%]">
               Мы работаем иначе: фиксируем цену в договоре после утверждения
               проекта. И эта цена не изменится, даже если: <br /> — Мы ошиблись
               в расчётах <br /> — Что-то не учли при проектировании <br /> —
@@ -772,7 +772,7 @@ export function Conditions() {
           </div>
         </div>
 
-        <div className="flex flex-col mt-10 md:justify-between gap-10 md:flex-row">
+        <div className="flex flex-col mt-5 md:justify-between md:gap-10 md:flex-row">
           <div className="bg-[#1C1C1C] flex flex-col md:justify-between md:max-w-[650px] md:h-[460px] w-full mt-10 rounded-3xl md:px-10 px-4 py-10">
             <Image
               src={"/HowWeWorks/lw.svg"}

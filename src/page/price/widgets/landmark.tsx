@@ -155,7 +155,7 @@ export function Landmark() {
           </div>
         </div>
         {/* 2 */}
-        <div className="flex flex-col md:h-[340px] mt-30 md:gap-10 md:justify-between md:flex-row">
+        <div className="flex flex-col md:h-[340px] mt-10 md:mt-30 md:gap-10 md:justify-between md:flex-row">
           <div className="mt-15 w-full md:max-w-[547px] md:mt-0">
             <div className="border border-border rounded-2xl px-4 py-5">
               <h5 className="font-semibold text-base leading-[150%]">

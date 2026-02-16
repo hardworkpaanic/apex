@@ -16,7 +16,7 @@ export function PricingFactors() {
             unoptimized
           />
         </div>
-        <h2 className="font-semibold md:font-bold mt-2 text-[30px] md:text-[48px] leading-[110%]">
+        <h2 className="font-bold md:font-bold mt-2 text-[30px] md:text-[48px] leading-[110%]">
           Что влияет на стоимость проекта
         </h2>
 

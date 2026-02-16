@@ -53,7 +53,7 @@ export const projectData = [
 
 export function Contact() {
   return (
-    <section className="bg-black mt-15 text-white rounded-t-3xl py-15 md:py-30">
+    <section className="bg-black mt-5 md:mt-15 text-white rounded-t-3xl py-15 md:py-30">
       <div className="container max-w-[1320px] mx-auto px-4">
         <h2 className="text-[30px] md:text-[48px] font-semibold leading-[110%]">
           Примеры наших работ
@@ -92,7 +92,7 @@ export function Contact() {
           <Button
             variant={"secondary"}
             size={"lg"}
-            className="w-full md:w-auto mx-auto mt-10"
+            className="w-full md:w-auto font-bold mx-auto mt-10"
           >
             Смотреть 200+ проектов <ArrowUpRight />
           </Button>
@@ -119,7 +119,7 @@ export function Contact() {
             />
 
             <Button
-              className="mt-2 max-w-[180px]"
+              className="mt-2 w-full md:max-w-[180px]"
               variant={"secondary"}
               size={"lg"}
             >
