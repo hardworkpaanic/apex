@@ -1,4 +1,5 @@
 import { Button } from "@/shared/components";
+import { Slider } from "@/shared/components/shared/slider";
 import { Input } from "@/shared/components/ui/input";
 import Image from "next/image";
 
@@ -86,7 +87,7 @@ export function Conditions() {
             </p>
           </div>
 
-          <div className="mt-5 md:mt-15 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+          <div className="mt-5 md:mt-15 hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
             {/* Карточка 1 - Консультация */}
             <div className="border border-[#E5E5E54D] w-full h-[280px] flex flex-col justify-between rounded-3xl p-7">
               <span className="font-semibold text-base">
@@ -410,6 +411,328 @@ export function Conditions() {
             {/* Еще один пустой блок для баланса (опционально) */}
             <div className="w-full hidden lg:block"></div>
           </div>
+
+          <Slider
+            className="mt-10"
+            items={[
+              <div className="border border-[#E5E5E54D] w-full h-[280px] flex flex-col justify-between rounded-3xl p-7">
+                <span className="font-semibold text-base">
+                  На этапе консультации
+                </span>
+
+                <ul className="flex flex-col gap-2">
+                  <div className="items-center flex gap-2">
+                    <Image
+                      src={"/about-us/list-icon.png"}
+                      alt="check"
+                      width={18}
+                      height={18}
+                    />
+                    <p className="text-[14px] leading-[150%]">
+                      Выезжает на объект (если нужно)
+                    </p>
+                  </div>
+
+                  <div className="items-center flex gap-2">
+                    <Image
+                      src={"/about-us/list-icon.png"}
+                      alt="check"
+                      width={18}
+                      height={18}
+                    />
+                    <p className="text-[14px] leading-[150%]">
+                      Обсуждает ваши пожелания
+                    </p>
+                  </div>
+
+                  <div className="items-center flex gap-2">
+                    <Image
+                      src={"/about-us/list-icon.png"}
+                      alt="check"
+                      width={18}
+                      height={18}
+                    />
+                    <p className="text-[14px] leading-[150%]">
+                      Формирует техническое задание
+                    </p>
+                  </div>
+
+                  <div className="items-center flex gap-2">
+                    <Image
+                      src={"/about-us/list-icon.png"}
+                      alt="check"
+                      width={18}
+                      height={18}
+                    />
+                    <p className="text-[14px] leading-[150%]">
+                      Рассчитывает стоимость и сроки
+                    </p>
+                  </div>
+
+                  <div className="items-center  flex gap-2">
+                    <Image
+                      src={"/about-us/list-icon.png"}
+                      alt="check"
+                      width={18}
+                      height={18}
+                    />
+                    <p className="text-[14px] leading-[150%]">
+                      Готовит договор
+                    </p>
+                  </div>
+                </ul>
+              </div>,
+
+              <div className="border border-[#E5E5E54D] w-full h-[280px] flex flex-col justify-between rounded-3xl p-7">
+                <span className="font-semibold text-base">
+                  На этапе проектирования
+                </span>
+
+                <ul className="flex flex-col gap-2">
+                  <div className="items-center flex gap-2">
+                    <Image
+                      src={"/about-us/list-icon.png"}
+                      alt="check"
+                      width={18}
+                      height={18}
+                    />
+                    <p className="text-[14px] leading-[150%]">
+                      Координирует работу архитектора и инженера
+                    </p>
+                  </div>
+
+                  <div className="items-center flex gap-2">
+                    <Image
+                      src={"/about-us/list-icon.png"}
+                      alt="check"
+                      width={18}
+                      height={18}
+                    />
+                    <p className="text-[14px] leading-[150%]">
+                      Согласовывает проект с вами
+                    </p>
+                  </div>
+
+                  <div className="items-center flex gap-2">
+                    <Image
+                      src={"/about-us/list-icon.png"}
+                      alt="check"
+                      width={18}
+                      height={18}
+                    />
+                    <p className="text-[14px] leading-[150%]">
+                      Вносит корректировки
+                    </p>
+                  </div>
+
+                  <div className="items-center flex gap-2">
+                    <Image
+                      src={"/about-us/list-icon.png"}
+                      alt="check"
+                      width={18}
+                      height={18}
+                    />
+                    <p className="text-[14px] leading-[150%]">
+                      Контролирует сроки
+                    </p>
+                  </div>
+                </ul>
+              </div>,
+
+              <div className="border border-[#E5E5E54D] w-full h-[280px] flex flex-col justify-between rounded-3xl p-7">
+                <span className="font-semibold text-base">
+                  На этапе производства
+                </span>
+
+                <ul className="flex flex-col gap-2">
+                  <div className="items-center flex gap-2">
+                    <Image
+                      src={"/about-us/list-icon.png"}
+                      alt="check"
+                      width={18}
+                      height={18}
+                    />
+                    <p className="text-[14px] leading-[150%]">
+                      Контролирует сроки изготовления
+                    </p>
+                  </div>
+
+                  <div className="items-center flex gap-2">
+                    <Image
+                      src={"/about-us/list-icon.png"}
+                      alt="check"
+                      width={18}
+                      height={18}
+                    />
+                    <p className="text-[14px] leading-[150%]">
+                      Отправляет фото-отчёты
+                    </p>
+                  </div>
+
+                  <div className="items-center flex gap-2">
+                    <Image
+                      src={"/about-us/list-icon.png"}
+                      alt="check"
+                      width={18}
+                      height={18}
+                    />
+                    <p className="text-[14px] leading-[150%]">
+                      Координирует логистику
+                    </p>
+                  </div>
+
+                  <div className="items-center flex gap-2">
+                    <Image
+                      src={"/about-us/list-icon.png"}
+                      alt="check"
+                      width={18}
+                      height={18}
+                    />
+                    <p className="text-[14px] leading-[150%]">
+                      Решает любые возникающие вопросы
+                    </p>
+                  </div>
+                </ul>
+              </div>,
+
+              <div className="border border-[#E5E5E54D] w-full h-[280px] flex flex-col justify-between rounded-3xl p-7">
+                <span className="font-semibold text-base">
+                  На этапе монтажа
+                </span>
+
+                <ul className="flex flex-col gap-2">
+                  <div className="items-center flex gap-2">
+                    <Image
+                      src={"/about-us/list-icon.png"}
+                      alt="check"
+                      width={18}
+                      height={18}
+                    />
+                    <p className="text-[14px] leading-[150%]">
+                      Координирует бригаду монтажников
+                    </p>
+                  </div>
+
+                  <div className="items-center flex gap-2">
+                    <Image
+                      src={"/about-us/list-icon.png"}
+                      alt="check"
+                      width={18}
+                      height={18}
+                    />
+                    <p className="text-[14px] leading-[150%]">
+                      Контролирует качество и сроки
+                    </p>
+                  </div>
+
+                  <div className="items-center flex gap-2">
+                    <Image
+                      src={"/about-us/list-icon.png"}
+                      alt="check"
+                      width={18}
+                      height={18}
+                    />
+                    <p className="text-[14px] leading-[150%]">
+                      Оперативно решает проблемы на объекте
+                    </p>
+                  </div>
+
+                  <div className="items-center flex gap-2">
+                    <Image
+                      src={"/about-us/list-icon.png"}
+                      alt="check"
+                      width={18}
+                      height={18}
+                    />
+                    <p className="text-[14px] leading-[150%]">
+                      Держит вас в курсе
+                    </p>
+                  </div>
+                </ul>
+              </div>,
+
+              <div className="border border-[#E5E5E54D] w-full h-[280px] flex flex-col justify-between rounded-3xl p-7 lg:col-start-3">
+                <span className="font-semibold text-base">На этапе сдачи:</span>
+
+                <ul className="flex flex-col gap-2">
+                  <div className="items-center flex gap-2">
+                    <Image
+                      src={"/about-us/list-icon.png"}
+                      alt="check"
+                      width={18}
+                      height={18}
+                    />
+                    <p className="text-[14px] leading-[150%]">
+                      Организует финальную приёмку
+                    </p>
+                  </div>
+
+                  <div className="items-center flex gap-2">
+                    <Image
+                      src={"/about-us/list-icon.png"}
+                      alt="check"
+                      width={18}
+                      height={18}
+                    />
+                    <p className="text-[14px] leading-[150%]">
+                      Готовит документы
+                    </p>
+                  </div>
+
+                  <div className="items-center flex gap-2">
+                    <Image
+                      src={"/about-us/list-icon.png"}
+                      alt="check"
+                      width={18}
+                      height={18}
+                    />
+                    <p className="text-[14px] leading-[150%]">
+                      Передаёт гарантии
+                    </p>
+                  </div>
+
+                  <div className="items-center flex gap-2">
+                    <Image
+                      src={"/about-us/list-icon.png"}
+                      alt="check"
+                      width={18}
+                      height={18}
+                    />
+                    <p className="text-[14px] leading-[150%]">
+                      Остаётся вашим контактом на весь гарантийный срок
+                    </p>
+                  </div>
+
+                  <div className="items-center  flex gap-2">
+                    <Image
+                      src={"/about-us/list-icon.png"}
+                      alt="check"
+                      width={18}
+                      height={18}
+                    />
+                    <p className="text-[14px] leading-[150%]">
+                      Готовит договор
+                    </p>
+                  </div>
+                </ul>
+              </div>,
+            ]}
+          />
+
+          <div className="bg-linear-to-r md:hidden mt-10 from-[#5A5C69] to-[#20232C] w-full h-[280px] flex flex-col justify-between rounded-3xl p-7">
+            <span className="font-semibold text-[20px]">
+              Как связаться с менеджером:
+            </span>
+
+            <ul>
+              <li className="text-[14px]">- Телефон (прямой мобильный)</li>
+              <li className="text-[14px]">- WhatsApp / Telegram</li>
+              <li className="text-[14px]">- Email</li>
+              <li className="text-[14px]">
+                - Время ответа: в течение 2 часов (пн-пт 9:00-20:00)
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div className="mt-15 md:mt-30 flex flex-col md:flex-row md:justify-between">
@@ -514,7 +837,7 @@ export function Conditions() {
           </h2>
         </div>
 
-        <div className="flex flex-col md:flex-row md:justify-between flex-wrap">
+        <div className=" hidden md:flex flex-col md:flex-row md:justify-between flex-wrap">
           <div className="border mt-10 md:max-w-[426px] border-white/15 rounded-3xl p-7">
             <div className="flex flex-row items-center gap-3">
               <Image
@@ -630,6 +953,125 @@ export function Conditions() {
             </div>
           </div>
         </div>
+
+        <Slider
+          items={[
+            <div className="border mt-10 md:max-w-[426px] border-white/15 rounded-3xl p-7">
+              <div className="flex flex-row items-center gap-3">
+                <Image
+                  src={"/HowWeWorks/oplasy.svg"}
+                  width={30}
+                  height={30}
+                  alt="oplasy"
+                />
+                <p className="text-base font-semibold">
+                  Проектирование и производство изделий:
+                </p>
+              </div>
+              <div className="flex flex-col mt-5">
+                <span className="text-[24px] font-semibold">✓ 10%</span>
+                <p className="text-[14px] md:text-base">
+                  — Минимальный аванс для старта проектирования
+                </p>
+                <p className="text-[14px] md:text-base">
+                  Вы видите 3D-визуализацию до основных вложений
+                </p>
+              </div>
+
+              <div className="flex flex-col mt-5">
+                <span className="text-[24px] font-semibold">✓ 40%</span>
+                <p className="text-[14px] md:text-base">
+                  — Только после утверждения проекта
+                </p>
+                <p className="text-[14px] md:text-base">
+                  Вы платите, когда довольны результатом │
+                </p>
+                <p className="text-[14px] md:text-base">
+                  Мы запускаем производство
+                </p>
+              </div>
+
+              <div className="flex flex-col mt-5">
+                <span className="text-[24px] font-semibold">✓ 50%</span>
+                <p className="text-[14px] md:text-base">
+                  — Перед отгрузкой готовых изделий │
+                </p>
+                <p className="text-[14px] md:text-base">
+                  Вы видите качество до финального платежа
+                </p>
+              </div>
+            </div>,
+            <div className="border mt-10 md:max-w-[426px] border-white/15 rounded-3xl p-7">
+              <div className="flex flex-row items-center gap-3">
+                <Image
+                  src={"/HowWeWorks/oplasy2.svg"}
+                  width={30}
+                  height={30}
+                  alt="oplasy"
+                />
+                <p className="text-base font-semibold">Монтаж на объекте</p>
+              </div>
+              <div className="flex flex-col mt-5">
+                <span className="text-[24px] font-semibold">✓ 40%</span>
+                <p className="text-[14px] md:text-base">
+                  — При начале монтажных работ Бригада выезжает на объект
+                </p>
+              </div>
+
+              <div className="flex flex-col mt-5">
+                <span className="text-[24px] font-semibold">✓ Остаток</span>
+                <p className="text-[14px] md:text-base">
+                  — Раз в 20 дней за реально выполненные объёмы
+                </p>
+              </div>
+
+              <div className="flex flex-col mt-5">
+                <p className="text-[14px] italic md:text-base">
+                  Платите только за то, что уже смонтировано Никаких авансов "в
+                  никуда"
+                </p>
+              </div>
+            </div>,
+            <div className="border mt-10 md:max-w-[426px] border-white/15 rounded-3xl p-7">
+              <div className="flex flex-row items-center gap-3">
+                <Image
+                  src={"/HowWeWorks/oplasy3.svg"}
+                  width={30}
+                  height={30}
+                  alt="oplasy"
+                />
+                <p className="text-base font-semibold">Гибкие схемы оплаты:</p>
+              </div>
+              <div className="flex flex-col mt-5">
+                <span className="text-[24px] font-semibold">
+                  Оплата по этапам
+                </span>
+                <p className="text-[14px] md:text-base">
+                  (индивидуальный график)
+                </p>
+              </div>
+
+              <div className="flex flex-col mt-5">
+                <span className="text-[24px] font-semibold">Постоплата</span>
+                <p className="text-[14px] md:text-base">
+                  для застройщиков (при объёме 5+ млн)
+                </p>
+              </div>
+
+              <div className="flex flex-col mt-5">
+                <span className="text-[24px] font-semibold">
+                  Что НЕ входит в стоимость:
+                </span>
+                <p className="text-[14px] md:text-base">
+                  — Электромонтажные работы (если нужна подсветка декора)
+                </p>
+                <p className="text-[14px] md:text-base">
+                  — Ландшафтные работы вокруг дома
+                </p>
+              </div>
+            </div>,
+          ]}
+        />
 
         <form className="flex sm:gap-2 md:mt-30 flex-col md:flex-row w-full mt-10 rounded-3xl">
           <div className="">

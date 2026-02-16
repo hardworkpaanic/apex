@@ -1,5 +1,6 @@
 import { projectData } from "@/page/installation/widgets/contact";
 import { Button, ProjectCard } from "@/shared/components";
+import { Slider } from "@/shared/components/shared/slider";
 import { Input } from "@/shared/components/ui/input";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
@@ -16,14 +17,26 @@ export function Works() {
           От классики до современной архитектуры
         </p>
 
-        {projectData.map((item, index) => (
-          <ProjectCard
-            key={index}
-            {...item}
-            className="mt-7.5"
-            buttonVariant="secondary"
-          />
-        ))}
+        <div className="hidden md:block">
+          {projectData.map((item, index) => (
+            <ProjectCard
+              key={index}
+              {...item}
+              className="mt-7.5"
+              buttonVariant="secondary"
+            />
+          ))}
+        </div>
+        <Slider
+          items={projectData.map((item, index) => (
+            <ProjectCard
+              key={index}
+              {...item}
+              className="mt-7.5"
+              buttonVariant="secondary"
+            />
+          ))}
+        />
 
         <div className="w-full md:flex justify-center">
           <Button
@@ -132,7 +145,7 @@ export function Works() {
           полной предоплаты — вы платите по факту выполненных работ.
         </p>
 
-        <div className="flex gap-2 flex-col md:flex-row justify-between">
+        <div className="hidden md:flex gap-2 flex-col md:flex-row justify-between">
           <div className="w-full">
             {" "}
             <div className="bg-[#1E1E1E] mt-7.5 rounded-[30px] px-4 md:px-7 md:py-7 py-5">
@@ -295,6 +308,172 @@ export function Works() {
             />
           </div>
         </div>
+
+        <Slider
+          items={[
+            <div className="w-full">
+              {" "}
+              <div className="bg-[#1E1E1E] mt-7.5 rounded-[30px] px-4 md:px-7 md:py-7 py-5">
+                <h3 className="flex text-base font-semibold items-center gap-2">
+                  <img
+                    className="w-5 md:w-10 md:h-10 h-5"
+                    src="/price/rub.svg"
+                    alt="rub"
+                  />
+                  Умная поэтапная оплата
+                </h3>
+
+                <div className="flex gap-3 mt-5 items-center">
+                  <div className="bg-black flex items-center justify-center font-bold rounded-[10px] w-8 h-8">
+                    1
+                  </div>
+
+                  <div className="flex flex-col gap-1">
+                    <span className="font-bold text-[14px]">
+                      Старт проектирования — 10%
+                    </span>
+                    <span className="text-[14px] text-[#B9B9B9]">
+                      {" "}
+                      Оплата запуска проектных работ.
+                    </span>
+                  </div>
+                </div>
+
+                <div className="flex gap-3 mt-5 items-center">
+                  <div className="bg-black flex items-center justify-center font-bold rounded-[10px] w-8 h-8">
+                    2
+                  </div>
+
+                  <div className="flex flex-col gap-1">
+                    <span className="font-bold text-[14px]">
+                      После утверждения проекта — 40%
+                    </span>
+                    <span className="text-[14px] text-[#B9B9B9]">
+                      {" "}
+                      Проект согласован и передан в производство.
+                    </span>
+                  </div>
+                </div>
+
+                <div className="flex gap-3 mt-5 items-center">
+                  <div className="bg-black flex items-center justify-center font-bold rounded-[10px] w-8 h-8">
+                    3
+                  </div>
+
+                  <div className="flex flex-col gap-1">
+                    <span className="font-bold text-[14px]">
+                      Перед отгрузкой — 50%
+                    </span>
+                    <span className="text-[14px] text-[#B9B9B9]">
+                      {" "}
+                      Готовые изделия передаются к поставке.
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-[#1E1E1E] mt-2.5 rounded-[30px] px-4 md:px-7 md:py-7 py-5">
+                <h3 className="flex text-base font-semibold items-center gap-2">
+                  Этапы оплаты за монтаж
+                </h3>
+
+                <div className="flex gap-3 mt-5 items-center">
+                  <div className="bg-black flex items-center justify-center font-bold rounded-[10px] w-8 h-8">
+                    1
+                  </div>
+
+                  <div className="flex flex-col gap-1">
+                    <span className="font-bold text-[14px]">
+                      Начало монтажных работ — 40%
+                    </span>
+                    <span className="text-[14px] text-[#B9B9B9]">
+                      {" "}
+                      Оплата старта работ на объекте.
+                    </span>
+                  </div>
+                </div>
+
+                <div className="flex gap-3 mt-5 items-center">
+                  <div className="bg-black flex items-center justify-center font-bold rounded-[10px] w-8 h-8">
+                    2
+                  </div>
+
+                  <div className="flex flex-col gap-1">
+                    <span className="font-bold text-[14px]">
+                      Выполнение работ — остаток
+                    </span>
+                    <span className="text-[14px] text-[#B9B9B9]">
+                      {" "}
+                      Оплата производится раз в 20 дней за фактически
+                      выполненные объёмы.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>,
+
+            <div className="flex w-full flex-col gap-2">
+              <div className="bg-[#1E1E1E] mt-7.5 rounded-[30px] px-4 md:px-7 md:py-7 py-5">
+                <h3 className="flex text-base font-semibold items-center gap-2">
+                  <img
+                    className="w-5 md:w-10 md:h-10 h-5"
+                    src="/price/port.svg"
+                    alt="rub"
+                  />
+                  Для юридических лиц
+                </h3>
+
+                <div className="flex flex-col mt-5 gap-3.5">
+                  <div className="flex items-center gap-5">
+                    <img src="/price/list-w.svg" alt="" />
+
+                    <span className="font-bold text-[14px] md:text-bold">
+                      Безналичный расчёт с НДС
+                    </span>
+                  </div>
+
+                  <div className="flex items-center gap-5">
+                    <img src="/price/list-w.svg" alt="" />
+
+                    <span className="font-bold text-[14px] md:text-bold">
+                      Договор подряда
+                    </span>
+                  </div>
+
+                  <div className="flex items-center gap-5">
+                    <img src="/price/list-w.svg" alt="" />
+
+                    <span className="font-bold text-[14px] md:text-bold">
+                      Счёт на оплату
+                    </span>
+                  </div>
+
+                  <div className="flex items-center gap-5">
+                    <img src="/price/list-w.svg" alt="" />
+
+                    <span className="font-bold text-[14px] md:text-bold">
+                      Поэтапная оплата по актам выполненных работ
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <Button
+                variant={"secondary"}
+                size={"lg"}
+                className="w-full rounded-full"
+              >
+                Получить реквизиты
+              </Button>
+
+              <Image
+                src={"/price/home-dectop-3.png"}
+                width={655}
+                height={228}
+                alt="home3"
+                className="object-cover object-center h-[198px] rounded-[30px] w-full"
+              />
+            </div>,
+          ]}
+        />
 
         <form className="flex sm:gap-2 flex-col md:flex-row w-full mt-10 md:mt-30 rounded-3xl">
           <div className="">

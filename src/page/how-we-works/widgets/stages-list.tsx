@@ -48,9 +48,9 @@ export function StagesList() {
               </div>
             </div>
 
-            <Separator className="bg-[#E5E5E5] md:mt-10" />
+            <Separator className="bg-[#E5E5E5] mt-3 md:mt-10" />
 
-            <div className="">
+            <div className="mt-2">
               <Accordion type="single" collapsible defaultValue="item-1">
                 <AccordionItem value="item-1">
                   <AccordionTrigger className="text-base font-semibold leading-[150%]">
@@ -592,7 +592,7 @@ export function StagesList() {
                 </div>
               </div>
 
-              <Separator className="bg-[#E5E5E5] mt-10" />
+              <Separator className="bg-[#E5E5E5] mt-3 md:mt-10" />
 
               <div className="">
                 <Accordion type="single" collapsible defaultValue="item-1">
@@ -1060,7 +1060,7 @@ export function StagesList() {
               </div>
             </div>
 
-            <Separator className="bg-[#E5E5E5] md:mt-10" />
+            <Separator className="bg-[#E5E5E5] mt-3 md:mt-10" />
 
             <div className="">
               <Accordion type="single" collapsible defaultValue="item-1">
@@ -1569,7 +1569,7 @@ export function StagesList() {
                 </div>
               </div>
 
-              <Separator className="bg-[#E5E5E5] mt-10" />
+              <Separator className="bg-[#E5E5E5] mt-3 md:mt-10" />
 
               <div className="">
                 <Accordion type="single" collapsible defaultValue="item-1">
@@ -2093,7 +2093,7 @@ export function StagesList() {
               </div>
             </div>
 
-            <Separator className="bg-[#E5E5E5] md:mt-10" />
+            <Separator className="bg-[#E5E5E5] mt-3 md:mt-10" />
 
             <div className="">
               <Accordion type="single" collapsible defaultValue="item-1">

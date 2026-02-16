@@ -122,49 +122,49 @@ export function AboutUs() {
       </div>
 
       {/* TODO: Добавить блоки */}
-      <div className="bg-[#F3F3F3] mt-5 flex flex-row rounded-3xl">
-        <div className="w-full border-r-2 border-white">
-          <div className="flex justify-center flex-col border-b-2 border-white py-5 md:py-12.5 px-4 items-center gap-2">
+      <div className="bg-[#F3F3F3] mt-5 flex flex-col md:flex-row rounded-3xl">
+        <div className="w-full flex flex-row md:flex-col justify-center border-r-2 border-white">
+          <div className="flex justify-center flex-col border-r-2 md:border-b-2 border-white py-5 md:py-12.5 px-4 items-center gap-2">
             <span className="text-[22px] md:text-[48px] font-bold">200+</span>
             <span className="text-center">Реализованных проектов</span>
           </div>
 
-          <div className="flex justify-center flex-col border-b-2 border-white py-5 md:py-12.5 px-4 items-center gap-2">
+          <div className="flex justify-center flex-col md:border-b-2 border-white py-5 md:py-12.5 px-4 items-center gap-2">
             <span className="text-[22px] md:text-[48px] font-bold">5000+</span>
             <span className="text-center">м² производство/месяц</span>
           </div>
         </div>
 
-        <div className="w-full border-r-2 border-white">
-          <div className="flex justify-center flex-col border-b-2 border-white py-5 md:py-12.5 px-4 items-center gap-2">
+        <div className="w-full flex flex-row md:flex-col justify-center border-r-2 border-white">
+          <div className="flex justify-center flex-col border-r-2 md:border-b-2 border-white py-5 md:py-12.5 px-4 items-center gap-2">
             <span className="text-[22px] md:text-[48px] font-bold">85%</span>
             <span className="text-center">Натуральный камень в составе</span>
           </div>
 
-          <div className="flex justify-center flex-col border-b-2 border-white py-5 md:py-12.5 px-4 items-center gap-2">
+          <div className="flex justify-center flex-col md:border-b-2 border-white py-5 md:py-12.5 px-4 items-center gap-2">
             <span className="text-[22px] md:text-[48px] font-bold">5-10</span>
             <span className="text-center">дней 3D-визуализация</span>
           </div>
         </div>
 
-        <div className="w-full border-r-2 border-white">
-          <div className="flex justify-center flex-col border-b-2 border-white py-5 md:py-12.5 px-4 items-center gap-2">
+        <div className="w-full flex flex-row md:flex-col justify-center border-r-2 border-white">
+          <div className="flex justify-center flex-col border-r-2 md:border-b-2 border-white py-5 md:py-12.5 px-4 items-center gap-2">
             <span className="text-[22px] md:text-[48px] font-bold">0,5 мм</span>
             <span className="text-center">Тонкость стыковки элементов</span>
           </div>
 
-          <div className="flex justify-center flex-col border-b-2 border-white py-5 md:py-12.5 px-4 items-center gap-2">
+          <div className="flex justify-center flex-col md:border-b-2 border-white py-5 md:py-12.5 px-4 items-center gap-2">
             <span className="text-[22px] md:text-[48px] font-bold">200+</span>
             <span className="text-center">циклов морозостойкость</span>
           </div>
         </div>
-        <div className="w-full">
-          <div className="flex justify-center flex-col border-b-2 border-white py-5 md:py-12.5 px-4 items-center gap-2">
+        <div className="w-full flex flex-row md:flex-col justify-center">
+          <div className="flex justify-center flex-col border-r-2 md:border-b-2 border-white py-5 md:py-12.5 px-4 items-center gap-2">
             <span className="text-[22px] md:text-[48px] font-bold">10 лет</span>
             <span className="text-center">Гарантия на материал</span>
           </div>
 
-          <div className="flex justify-center flex-col border-b-2 border-white py-5 md:py-12.5 px-4 items-center gap-2">
+          <div className="flex justify-center flex-col md:border-b-2 border-white py-5 md:py-12.5 px-4 items-center gap-2">
             <span className="text-[22px] md:text-[48px] font-bold">10 мм</span>
             <span className="text-center">Толщина элемента</span>
           </div>

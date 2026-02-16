@@ -33,7 +33,10 @@ export function MobileMenu() {
   return (
     <div className="">
       {/* Кнопка для открытия/закрытия меню */}
-      <button className="flex items-center justify-center" onClick={toggleMenu}>
+      <button
+        className="flex items-center md:hidden justify-center"
+        onClick={toggleMenu}
+      >
         <Image
           src={"/mobile-menusvg.svg"}
           width={40}

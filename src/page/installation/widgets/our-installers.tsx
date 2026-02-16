@@ -1,3 +1,4 @@
+import { Slider } from "@/shared/components/shared/slider";
 import { Badge } from "@/shared/components/ui/badge";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
@@ -76,7 +77,7 @@ export function OurInstallers() {
         </div>
 
         <div className="container mx-auto px-4 max-w-[1330px]">
-          <div className="mt-5 md:mt-15 flex justify-between w-full flex-row">
+          <div className="mt-5 md:mt-15 hidden md:flex justify-between w-full flex-row">
             <div className="bg-[url('/home.png')] bg-cover md:w-[427px] md:h-[400px] w-[320px] h-[320px] bg-center rounded-2xl">
               <div className="bg-black/70 p-7 text-white w-full h-full flex justify-end  flex-col rounded-2xl">
                 <span className="text-[18px] font-bold">Бригада</span>
@@ -212,6 +213,150 @@ export function OurInstallers() {
               </div>
             </div>
           </div>
+
+          <Slider
+            className="mt-10"
+            items={[
+              <div className="bg-[url('/home.png')] bg-cover md:w-[427px] md:h-[400px] w-[320px] h-[320px] bg-center rounded-2xl">
+                <div className="bg-black/70 p-7 text-white w-full h-full flex justify-end  flex-col rounded-2xl">
+                  <span className="text-[18px] font-bold">Бригада</span>
+                  <ul className="mt-2 flex flex-col gap-1">
+                    <li className="flex items-center gap-1">
+                      <Image
+                        src={"/about-us/list-icon.png"}
+                        alt="check"
+                        width={22}
+                        height={22}
+                      />
+                      <p className="text-[16px] leading-[150%]">
+                        12 монтажников
+                      </p>
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <Image
+                        src={"/about-us/list-icon.png"}
+                        alt="check"
+                        width={22}
+                        height={22}
+                      />
+                      <p className="text-[16px] leading-[150%]">4 бригады</p>
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <Image
+                        src={"/about-us/list-icon.png"}
+                        alt="check"
+                        width={22}
+                        height={22}
+                      />
+                      <p className="text-[16px] leading-[150%]">
+                        Опыт: 3-15 лет
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>,
+              <div className="bg-[url('/home2.png')] bg-cover md:w-[427px] md:h-[400px] w-[320px] h-[320px] bg-center rounded-2xl">
+                <div className="bg-black/70 p-7 text-white w-full h-full flex justify-end  flex-col rounded-2xl">
+                  <span className="text-[18px] font-bold">Обучение</span>
+                  <ul className="mt-2 flex flex-col gap-1">
+                    <li className="flex items-center gap-1">
+                      <Image
+                        src={"/about-us/list-icon.png"}
+                        alt="check"
+                        width={22}
+                        height={22}
+                      />
+                      <p className="text-[16px] leading-[150%]">
+                        Теория на производстве
+                      </p>
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <Image
+                        src={"/about-us/list-icon.png"}
+                        alt="check"
+                        width={22}
+                        height={22}
+                      />
+                      <p className="text-[16px] leading-[150%]">
+                        Практика на учебном стенде
+                      </p>
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <Image
+                        src={"/about-us/list-icon.png"}
+                        alt="check"
+                        width={22}
+                        height={22}
+                      />
+                      <p className="text-[16px] leading-[150%]">Экзамен</p>
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <Image
+                        src={"/about-us/list-icon.png"}
+                        alt="check"
+                        width={22}
+                        height={22}
+                      />
+                      <p className="text-[16px] leading-[150%]">
+                        Стажировка на объекте
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>,
+              <div className="bg-[url('/home3.png')] bg-cover md:w-[427px] md:h-[400px] w-[320px] h-[320px] bg-center rounded-2xl">
+                <div className="bg-black/40 p-7 text-white w-full h-full flex justify-end  flex-col rounded-2xl">
+                  <span className="text-[18px] font-bold">Сертификация</span>
+                  <ul className="mt-2 flex flex-col gap-1">
+                    <li className="flex items-center gap-1">
+                      <Image
+                        src={"/about-us/list-icon.png"}
+                        alt="check"
+                        width={22}
+                        height={22}
+                      />
+                      <p className="text-[16px] leading-[150%]">
+                        Сертификат APEX
+                      </p>
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <Image
+                        src={"/about-us/list-icon.png"}
+                        alt="check"
+                        width={22}
+                        height={22}
+                      />
+                      <p className="text-[16px] leading-[150%]">
+                        Аттестация раз в год
+                      </p>
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <Image
+                        src={"/about-us/list-icon.png"}
+                        alt="check"
+                        width={22}
+                        height={22}
+                      />
+                      <p className="text-[16px] leading-[150%]">
+                        Страхование ответственности
+                      </p>
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <Image
+                        src={"/about-us/list-icon.png"}
+                        alt="check"
+                        width={22}
+                        height={22}
+                      />
+                      <p className="text-[16px] leading-[150%]">
+                        Допуск к работе на высоте
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>,
+            ]}
+          />
         </div>
       </section>
       <section className="container hidden md:block mt-15 md:mt-30 max-w-[1330px] mx-auto px-4">
@@ -346,7 +491,7 @@ export function OurInstallers() {
           </div>
         </section>
       </>
-      <section className="mt-15 md:mt-30 md:block pb-30 container mx-auto max-w-[1330px] px-4">
+      <section className="mt-15 md:mt-30 hidden md:block pb-30 container mx-auto max-w-[1330px] px-4">
         <div className="flex flex-row justify-between items-end">
           <div className="md:max-w-[804px]">
             <div className="flex flex-col gap-2">
@@ -508,7 +653,7 @@ export function OurInstallers() {
       <div className="container max-w-[1330px]  mx-auto rounded-2xl">
         <div
           className=" bg-[url('/quality-control-tools.svg')] bg-cover w-full
-      h-[620.5594482421875px] bg-center rounded-[30px] pt-10 flex flex-col gap-5 px-[50px]"
+      md:pb-10 pt-[140px] px-4 pb-2.5 bg-center rounded-[30px] md:pt-10 flex flex-col gap-5 md:px-[50px]"
         >
           <div className="bg-white max-w-[634px] rounded-2xl p-5">
             <h4 className="font-bold text-base leading-[110%]">
@@ -647,7 +792,7 @@ export function OurInstallers() {
 
               <div className="h-[1px] w-full mt-5 bg-[#D0D0D0]"></div>
 
-              <div className="flex flex-col border-r mt-4 border-[#D0D0D0]">
+              <div className="flex flex-col md:border-r mt-4 border-[#D0D0D0]">
                 <p className=" text-[#999999] text-[14px] font-bold">
                   Покрывает:
                 </p>
@@ -720,7 +865,7 @@ export function OurInstallers() {
                 </div>
               </div>
             </div>
-            <div className="w-full">
+            <div className="w-full mt-10 md:mt-0">
               {" "}
               <h4 className="text-[30px] md:text-[68px] font-semibold">
                 {" "}
@@ -822,7 +967,7 @@ export function OurInstallers() {
               </h2>
             </div>
 
-            <div className="mt-5 md:mt-15 flex flex-col gap-2 md:flex-row md:justify-between flex-wrap">
+            <div className="mt-5 md:mt-15 hidden md:flex flex-col gap-2 md:flex-row md:justify-between flex-wrap">
               <div className="bg-[#F3F3F3] md:max-w-[417px] md:h-[221] flex flex-col gap-4 rounded-2xl p-5">
                 <h3 className="text-base font-bold">
                   В первые 12 месяцев после монтажа:
@@ -880,6 +1025,72 @@ export function OurInstallers() {
                 </ul>
               </div>
             </div>
+
+            <Slider
+              className="mt-10"
+              items={[
+                <div className="bg-[#F3F3F3] md:max-w-[417px] md:h-[221px] h-[314px] flex flex-col gap-4 rounded-2xl p-5">
+                  <h3 className="text-base font-bold">
+                    В первые 12 месяцев после монтажа:
+                  </h3>
+
+                  <ul className="list-disc text-[14px] flex flex-col  pl-4">
+                    <li>Бесплатный выезд инженера при любом обращении</li>
+                    <li>Устранение дефектов монтажа за наш счёт</li>
+                    <li>
+                      Замена повреждённых элементов (если дефект производства)
+                    </li>
+                  </ul>
+                </div>,
+                <div className="bg-[#F3F3F3] md:max-w-[417px] md:h-[221px] h-[314px] flex flex-col gap-4 rounded-2xl p-5">
+                  <h3 className="text-base font-bold">
+                    Как получить гарантийное обслуживание:
+                  </h3>
+
+                  <ul className="list-disc text-[14px] flex flex-col pl-4">
+                    <li>Позвонить по телефону +7 (495) 000-00-00</li>
+                    <li>
+                      Описать проблему (можно прислать фото на email/WhatsApp)
+                    </li>
+                    <li>Мы выезжаем на объект в течение 3 рабочих дней</li>
+                    <li>Инженер фиксирует дефект и определяет причину</li>
+                    <li>
+                      Если гарантийный случай — устраняем бесплатно в течение 7
+                      дней
+                    </li>
+                  </ul>
+                </div>,
+                <div className="bg-[#F3F3F3] md:max-w-[417px] md:h-[221px] h-[314px] flex flex-col gap-4 rounded-2xl p-5">
+                  <h3 className="text-base font-bold">После 24 месяцев:</h3>
+
+                  <ul className="list-disc text-[14px] flex flex-col pl-4">
+                    <li>
+                      Выезд инженера: 5 000 руб. (засчитывается в стоимость
+                      ремонта)
+                    </li>
+                    <li>Ремонт по гарантии: бесплатно (материалы и работа)</li>
+                    <li>
+                      Ремонт не по гарантии: по прайсу (материалы + работа)
+                    </li>
+                  </ul>
+                </div>,
+                <div className="bg-[#F3F3F3] md:max-w-[417px] md:h-[221] h-[314px] flex flex-col gap-4 rounded-2xl p-5">
+                  <h3 className="text-base font-bold">
+                    Документы при сдаче объекта:
+                  </h3>
+
+                  <ul className="list-disc text-[14px] flex flex-col pl-4">
+                    <li>Акт выполненных работ (КС-2, КС-3)</li>
+                    <li>Гарантийный талон на монтаж (10 лет)</li>
+                    <li>
+                      Ремонт не по гарантии: по прайсу (материалы + работа)
+                    </li>
+                    <li>Инструкция по эксплуатации</li>
+                    <li>Контакты для гарантийного обслуживания</li>
+                  </ul>
+                </div>,
+              ]}
+            />
           </div>
 
           <Image

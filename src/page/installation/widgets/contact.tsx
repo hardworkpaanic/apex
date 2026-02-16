@@ -1,4 +1,5 @@
 import { Button, ProjectCard } from "@/shared/components";
+import { Slider } from "@/shared/components/shared/slider";
 import { Input } from "@/shared/components/ui/input";
 import { ArrowUpRight } from "lucide-react";
 
@@ -64,14 +65,28 @@ export function Contact() {
 
         {/* TODO: Сделать карусель */}
 
-        {projectData.map((item, index) => (
-          <ProjectCard
-            key={index}
-            {...item}
-            className="mt-7.5"
-            buttonVariant="secondary"
-          />
-        ))}
+        <div className="hidden md:block">
+          {" "}
+          {projectData.map((item, index) => (
+            <ProjectCard
+              key={index}
+              {...item}
+              className="mt-7.5"
+              buttonVariant="secondary"
+            />
+          ))}
+        </div>
+
+        <Slider
+          items={projectData.map((item, index) => (
+            <ProjectCard
+              key={index}
+              {...item}
+              className="mt-7.5"
+              buttonVariant="secondary"
+            />
+          ))}
+        />
 
         <div className="w-full md:flex justify-center">
           <Button

@@ -1,8 +1,10 @@
+import { Slider } from "@/shared/components/shared/slider";
+import { ScrollArea, ScrollBar } from "@/shared/components/ui/scroll-area";
 import Image from "next/image";
 
 export function Comparisons() {
   return (
-    <section className="bg-[#F0F0F0] mt-15 md:mt-30 md:pb-30 rounded-t-3xl md:pt-30 py-10">
+    <section className="bg-[#F0F0F0] mt-15 md:mt-30 md:pb-30 rounded-t-3xl md:pt-30 py-50">
       <div className="container max-w-[1320px] mx-auto px-4">
         <div className="flex items-center gap-2">
           <Image
@@ -27,8 +29,22 @@ export function Comparisons() {
           alt="table"
           width={1320}
           height={444}
-          className="mt-5 w-full"
+          className="mt-5 hidden md:block w-full"
         />
+
+        <ScrollArea
+          scrollbarOrientation="horizontal"
+          className="md:hidden overflow-x-auto"
+        >
+          <Image
+            src={"materials/table.svg"}
+            alt="table"
+            width={1320}
+            height={444}
+            className="mt-5 h-auto w-auto max-w-none"
+            priority
+          />
+        </ScrollArea>
 
         <div className="flex items-center mt-10 md:mt-30 gap-2">
           <Image
@@ -61,8 +77,8 @@ export function Comparisons() {
             </div>
           </div>
 
-          <div className="md:w-1/2">
-            <div className="flex flex-col md:flex-row gap-5">
+          <div className="md:w-1/2 ">
+            <div className=" flex-col hidden md:flex md:flex-row gap-5">
               <div className="bg-white max-w-[315px] w-full rounded-2xl mt-5 p-5">
                 <div className="flex items-center gap-2">
                   <h5 className="text-base font-bold">Полимербетон</h5>
@@ -129,7 +145,7 @@ export function Comparisons() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col md:flex-row gap-5">
+            <div className="hidden md:flex  flex-col md:flex-row gap-5">
               <div className="bg-white max-w-[315px] w-full rounded-2xl mt-5 p-5">
                 <div className="flex items-center gap-2">
                   <h5 className="text-base font-bold">Пенопласт:</h5>
@@ -182,6 +198,145 @@ export function Comparisons() {
                   15 100 000 ₽ (68%)
                 </div>
               </div>
+            </div>
+
+            <Slider
+              items={[
+                <div className="bg-white max-w-[315px] w-full rounded-2xl mt-5 p-5">
+                  <div className="flex items-center gap-2">
+                    <h5 className="text-base font-bold">Полимербетон</h5>
+                    <Image
+                      src={"/logo.svg"}
+                      width={47.23044967651367}
+                      height={14}
+                      alt="Logo"
+                      unoptimized
+                    />
+                  </div>
+
+                  <div className="mt-2">
+                    <span className="text-[14px] font-semibold">
+                      Стоимость:
+                    </span>
+                    <p>23 000 ₽/м² × 300 м² = 6 900 000 ₽</p>
+                  </div>
+
+                  <div className="mt-2">
+                    <span className="text-[14px] font-semibold">
+                      Срок службы:
+                    </span>
+                    <p>50 лет</p>
+                  </div>
+                  <div className="mt-2">
+                    <span className="text-[14px] font-semibold">
+                      Обслуживание:
+                    </span>
+                    <p>0 ₽ (не требуется)</p>
+                  </div>
+                  <div className="mt-2">
+                    <span className="text-[14px] font-semibold">
+                      Итого за 25 лет:
+                    </span>
+                    <p>6 900 000 ₽</p>
+                  </div>
+                </div>,
+                <div className="bg-white max-w-[315px] w-full rounded-2xl mt-5 p-5">
+                  <div className="flex items-center gap-2">
+                    <h5 className="text-base font-bold">Натуральный камень:</h5>
+                  </div>
+
+                  <div className="mt-2">
+                    <span className="text-[14px] font-semibold">
+                      Стоимость:
+                    </span>
+                    <p>50 000 ₽/м² × 300 м² = 15 000 000₽</p>
+                  </div>
+
+                  <div className="mt-2">
+                    <span className="text-[14px] font-semibold">
+                      Усиление конструкций:
+                    </span>
+                    <p>+ 2 500 000 ₽</p>
+                  </div>
+                  <div className="mt-2">
+                    <span className="text-[14px] font-semibold">
+                      Покраска каждые 5 лет:
+                    </span>
+                    <p> 3 000 ₽/м² × 5 раз = 4 500 000 ₽</p>
+                  </div>
+                  <div className="mt-2">
+                    <span className="text-[14px] font-semibold">
+                      Итого за 25 лет:
+                    </span>
+                    <p>22 000 000 ₽</p>
+                  </div>
+                </div>,
+                <div className="bg-white max-w-[315px] w-full rounded-2xl mt-5 p-5">
+                  <div className="flex items-center gap-2">
+                    <h5 className="text-base font-bold">Пенопласт:</h5>
+                    <Image
+                      src={"/logo.svg"}
+                      width={47.23044967651367}
+                      height={14}
+                      alt="Logo"
+                      unoptimized
+                    />
+                  </div>
+
+                  <div className="mt-2">
+                    <span className="text-[14px] font-semibold">
+                      Стоимость:
+                    </span>
+                    <p>8 000 ₽/м² × 300 м² = 2 400 000 ₽</p>
+                  </div>
+
+                  <div className="mt-2">
+                    <span className="text-[14px] font-semibold">
+                      Срок службы:
+                    </span>
+                    <p> 10 лет → замена 2 раза = 7 200 000₽</p>
+                  </div>
+                  <div className="mt-2">
+                    <span className="text-[14px] font-semibold">
+                      Покраска каждые 3 года:
+                    </span>
+                    <p>2 500 ₽/м² × 8 раз = 6 000 000 ₽</p>
+                  </div>
+                  <div className="mt-2">
+                    <span className="text-[14px] font-semibold">
+                      Итого за 25 лет:
+                    </span>
+                    <p>13 200 000 ₽</p>
+                  </div>
+                </div>,
+                <div className="bg-gradient-to-br from-black to-[#7E7E7E]  text-white max-w-[315px] flex flex-col gap-[198px] w-full rounded-2xl mt-5 p-5">
+                  <div className="flex items-center gap-2">
+                    <h5 className="text-base font-bold">Экономия с </h5>
+                    <Image
+                      src={"/logo-white.svg"}
+                      width={47.23044967651367}
+                      height={14}
+                      alt="Logo"
+                      unoptimized
+                    />
+                  </div>
+
+                  <div className="font-semibold text-[20px]">
+                    15 100 000 ₽ (68%)
+                  </div>
+                </div>,
+              ]}
+              showPagination={false}
+            />
+
+            <div className="relative w-full">
+              <Image
+                src={"/materials/mat.png"}
+                alt="a"
+                width={569}
+                height={468}
+                className="absolute object-cover block md:hidden w-[370px] h-[468.17852783203125px] top-[-150px] z-0"
+              />
             </div>
           </div>
         </div>

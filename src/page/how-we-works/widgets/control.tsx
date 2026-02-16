@@ -27,7 +27,7 @@ export function Control() {
           </div>
 
           <div className="md:flex md:gap-2.5 md:mt-10">
-            <div className="w-full border border-[#E5E5E5] rounded-2xl pl-5 py-2.5 flex flex-row items-start text-[#3C3C3C] max-w-[279.5px] text-base gap-3 mt-3">
+            <div className="w-full border border-[#E5E5E5] rounded-2xl pl-5 py-2.5 flex flex-row items-start text-[#3C3C3C] md:max-w-[279.5px] text-base gap-3 mt-3">
               <Check size={24} className="mt-1" />
               <div className="flex flex-col">
                 <span className="text-[14px] font-semibold">
@@ -39,7 +39,7 @@ export function Control() {
               </div>
             </div>
 
-            <div className="w-full border border-[#E5E5E5] rounded-2xl px-5 py-2.5 flex flex-row items-start text-[#3C3C3C] max-w-[279.5px] text-base gap-3 mt-3">
+            <div className="w-full border border-[#E5E5E5] rounded-2xl px-5 py-2.5 flex flex-row items-start text-[#3C3C3C] md:max-w-[279.5px] text-base gap-3 mt-3">
               <Check size={24} className="mt-1" />
               <div className="flex flex-col">
                 <span className="text-[14px] font-semibold">
@@ -51,7 +51,7 @@ export function Control() {
           </div>
 
           <div className="md:flex md:gap-2.5">
-            <div className="w-full border border-[#E5E5E5] rounded-2xl px-5 py-2.5 flex flex-row items-start text-[#3C3C3C] max-w-[279.5px] text-base gap-3 mt-3">
+            <div className="w-full border border-[#E5E5E5] rounded-2xl px-5 py-2.5 flex flex-row items-start text-[#3C3C3C] md:max-w-[279.5px] text-base gap-3 mt-3">
               <Check size={24} className="mt-1" />
               <div className="flex flex-col">
                 <span className="text-[14px] font-semibold">Прозрачность</span>
@@ -59,7 +59,7 @@ export function Control() {
               </div>
             </div>
 
-            <div className="w-full border border-[#E5E5E5] rounded-2xl px-5 py-2.5 flex flex-row items-start text-[#3C3C3C] max-w-[279.5px] text-base gap-3 mt-3">
+            <div className="w-full border border-[#E5E5E5] rounded-2xl px-5 py-2.5 flex flex-row items-start text-[#3C3C3C] md:max-w-[279.5px] text-base gap-3 mt-3">
               <Check size={24} className="mt-1" />
               <div className="flex flex-col">
                 <span className="text-[14px] font-semibold">Архив</span>

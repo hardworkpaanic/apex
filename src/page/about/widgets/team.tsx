@@ -2,6 +2,7 @@
 
 import { Button } from "@/shared/components";
 import { ReviewsSliderSimple } from "@/shared/components/ReviewsSliderSimple";
+import { Slider } from "@/shared/components/shared/slider";
 import { Input } from "@/shared/components/ui/input";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
@@ -16,12 +17,12 @@ export function Team() {
         <p className="text-[14px] md:text-[16px] leading-[150%] mt-4">
           Более 50 специалистов: архитекторы, инженеры, технологи, монтажники
         </p>
-        <div className="flex flex-col md:flex-row gap-5 md:justify-between flex-wrap">
+        <div className="hidden md:flex flex-col md:flex-row gap-5 md:justify-between flex-wrap">
           <div className="bg-[url('/about-us/ceo.jpg')] md:w-[407px] mt-5 w-[320px] bg-cover bg-center rounded-3xl md:h-[508px] h-[300px] flex flex-col justify-end p-4">
             <div className="bg-[#1E1E1E] px-4 py-5 rounded-3xl">
               <h3 className="text-[20px] font-semibold">Имя Фамилия</h3>
               <p className="text-[14px] italic">Основатель/CEO</p>
-              <p className="text-[14px] text-white/70 mt-1">
+              <p className="text-[14px] hidden text-white/70 mt-1">
                 Он успешно реализовал крупные проекты, включая жилые и
                 коммерческие здания, став экспертом в строительстве.
               </p>
@@ -82,6 +83,51 @@ export function Team() {
             </div>
           </div>
         </div>
+        <Slider
+          items={[
+            <div className="bg-[url('/about-us/ceo.jpg')] md:w-[407px] mt-5 w-[320px] bg-cover bg-center rounded-3xl md:h-[508px] h-[300px] flex flex-col justify-end p-4">
+              <div className="bg-[#1E1E1E] px-4 py-5 rounded-3xl">
+                <h3 className="text-[20px] font-semibold">Имя Фамилия</h3>
+                <p className="text-[14px] italic">Основатель/CEO</p>
+              </div>
+            </div>,
+            <div className="bg-[url('/about-us/ceo.jpg')] md:w-[407px] mt-5 w-[320px] bg-cover bg-center rounded-3xl md:h-[508px] h-[300px] flex flex-col justify-end p-4">
+              <div className="bg-[#1E1E1E] px-4 py-5 rounded-3xl">
+                <h3 className="text-[20px] font-semibold">Имя Фамилия</h3>
+                <p className="text-[14px]">Основатель/CEO</p>
+              </div>
+            </div>,
+
+            <div className="bg-[url('/about-us/ceo.jpg')] md:w-[407px] mt-5 w-[320px] bg-cover bg-center rounded-3xl md:h-[508px] h-[300px] flex flex-col justify-end p-4">
+              <div className="bg-[#1E1E1E] px-4 py-5 rounded-3xl">
+                <h3 className="text-[20px] font-semibold">Имя Фамилия</h3>
+                <p className="text-[14px] italic">Основатель/CEO</p>
+              </div>
+            </div>,
+
+            <div className="bg-[url('/about-us/ceo.jpg')] md:w-[407px] mt-5 w-[320px] bg-cover bg-center rounded-3xl md:h-[508px] h-[300px] flex flex-col justify-end p-4">
+              <div className="bg-[#1E1E1E] px-4 py-5 rounded-3xl">
+                <h3 className="text-[20px] font-semibold">Имя Фамилия</h3>
+                <p className="text-[14px] italic">Основатель/CEO</p>
+              </div>
+            </div>,
+
+            <div className="bg-[url('/about-us/ceo.jpg')] md:w-[407px] mt-5 w-[320px] bg-cover bg-center rounded-3xl md:h-[508px] h-[300px] flex flex-col justify-end p-4">
+              <div className="bg-[#1E1E1E] px-4 py-5 rounded-3xl">
+                <h3 className="text-[20px] font-semibold">Имя Фамилия</h3>
+                <p className="text-[14px] italic">Основатель/CEO</p>
+              </div>
+            </div>,
+
+            <div className="bg-[url('/about-us/ceo.jpg')] md:w-[407px] mt-5 w-[320px] bg-cover bg-center rounded-3xl md:h-[508px] h-[300px] flex flex-col justify-end p-4">
+              <div className="bg-[#1E1E1E] px-4 py-5 rounded-3xl">
+                <h3 className="text-[20px] font-semibold">Имя Фамилия</h3>
+                <p className="text-[14px] italic">Основатель/CEO</p>
+              </div>
+            </div>,
+          ]}
+        />
+
         <h2 className="text-[30px] md:mt-30 md:text-[48px] mt-10 font-semibold leading-[110%]">
           Наше производство — <br /> технологии и мощности
         </h2>
@@ -107,7 +153,7 @@ export function Team() {
           <h2 className="text-[30px] text-center md:text-[20px] md:font-normal md:italic md:text-[#B9B9B9] font-semibold leading-[110%]">
             Мощности
           </h2>
-          <div className="flex flex-col md:flex-row w-full md:justify-between md:max-w-[873px] gap-5">
+          <div className="flex flex-col mt-10 md:mt-0 md:flex-row w-full md:justify-between md:max-w-[873px] gap-5">
             <div className="flex justify-between md:flex-col md:items-start items-center">
               <span className="text-[30px] text-center md:text-[48px] font-semibold leading-[110%]">
                 10+
@@ -135,7 +181,7 @@ export function Team() {
             Технологические <br /> преимущества
           </h2>
 
-          <div className="flex flex-col w-full md:max-w-[873px]">
+          <div className="flex flex-col mt-10 md:mt-0 w-full md:max-w-[873px]">
             <div className="flex flex-col mt-2 pb-4 border-b border-[#3C3C3C] gap-2">
               <span className="text-[14px] font-bold">ЧПУ-фрезеры</span>
               <p className="text-[14px] text-[#B9B9B9] italic">
@@ -160,7 +206,7 @@ export function Team() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col mt-10 md:flex-row md:justify-between">
+        <div className="flex flex-col mt-5 md:flex-row md:justify-between">
           <h2 className="text-[30px] text-center md:text-[20px] md:font-normal md:italic md:text-[#B9B9B9] font-semibold leading-[110%]">
             Посещение производства
           </h2>
